@@ -8,7 +8,7 @@ namespace LibreriaBarberia.Entidades
         public string? Nombre { get; set; }
         public string? Direccion { get; set; }
         public string? Ciudad { get; set; }
-        public string? Corrreo { get; set; }
+        public string? Correo { get; set; }
         [NotMapped] public List<Barberos>? Barberos { get; set; }
         [NotMapped] public List<Recepcionistas>? Recepcionistas { get; set; }
         [NotMapped] public List<Clientes>? Clientes { get; set; }

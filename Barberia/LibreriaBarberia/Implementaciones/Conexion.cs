@@ -15,7 +15,7 @@ namespace LibreriaBarberia.Implementaciones
         }
 
         public DbSet<Sedes>? Sedes { get; set; }
-        /*public DbSet<PerfilUsuarios> PerfilUsuarios { get; set; }
+        public DbSet<PerfilUsuarios> PerfilUsuarios { get; set; }
         public DbSet<Servicios> Servicios { get; set; }
         public DbSet<MetodosPago> MetodosPago { get; set; }
         public DbSet<Proveedores> Proveedores { get; set; }
@@ -33,6 +33,6 @@ namespace LibreriaBarberia.Implementaciones
         public DbSet<ReseñasClientes> ReseñasClientes { get; set; }
         public DbSet<ReservasServicios> ReservasServicios { get; set; }
         public DbSet<Facturas> Facturas { get; set; }
-        public DbSet<Comisiones> Comisiones { get; set; }*/
+        public DbSet<Comisiones> Comisiones { get; set; }
     }
 }

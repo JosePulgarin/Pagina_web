@@ -1,0 +1,13 @@
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\bin\Debug\net8.0\LibreriaBarberia.deps.json
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\bin\Debug\net8.0\LibreriaBarberia.dll
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\bin\Debug\net8.0\LibreriaBarberia.pdb
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\LibreriaBarberia.csproj.AssemblyReference.cache
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\LibreriaBarberia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\LibreriaBarberia.AssemblyInfoInputs.cache
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\LibreriaBarberia.AssemblyInfo.cs
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\LibreriaBarberia.csproj.CoreCompileInputs.cache
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\LibreriaBarberia.sourcelink.json
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\LibreriaBarberia.dll
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\refint\LibreriaBarberia.dll
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\LibreriaBarberia.pdb
+C:\Users\Jose Manuel Pulgarin\Documents\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Debug\net8.0\ref\LibreriaBarberia.dll

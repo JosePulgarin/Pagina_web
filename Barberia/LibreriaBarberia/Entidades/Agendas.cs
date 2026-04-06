@@ -9,7 +9,6 @@ namespace LibreriaBarberia.Entidades
         public DateOnly Fecha { get; set; }
         public TimeOnly Hora { get; set; }
         public string? Estado { get; set; } // Pendiente, Confirmada, Cancelada (OJO, preguntar al profe)
-        public string? Telefono { get; set; }
         public int IdBarbero { get; set; }
         [ForeignKey("IdBarbero")] public Barberos? Barberos { get; set; }
         [NotMapped] public List<Reservas>? Reservas { get; set; }

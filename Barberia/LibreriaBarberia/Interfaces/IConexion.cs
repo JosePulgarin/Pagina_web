@@ -7,7 +7,7 @@ namespace LibreriaBarberia.Interfaces
     {
         string? StringConexion { get; set; }
         DbSet<Sedes>? Sedes { get; set; }
-       /* DbSet<PerfilUsuarios> PerfilUsuarios { get; set; }
+        DbSet<PerfilUsuarios> PerfilUsuarios { get; set; }
         DbSet<Servicios> Servicios { get; set; }
         DbSet<MetodosPago> MetodosPago { get; set; }
         DbSet<Proveedores> Proveedores { get; set; }
@@ -25,6 +25,6 @@ namespace LibreriaBarberia.Interfaces
         DbSet<ReseñasClientes> ReseñasClientes { get; set; }
         DbSet<ReservasServicios> ReservasServicios { get; set; }
         DbSet<Facturas> Facturas { get; set; }
-        DbSet<Comisiones> Comisiones { get; set; }*/
+        DbSet<Comisiones> Comisiones { get; set; }
     }
 }
