@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ConsolaBarberia/ConsolaBarberia.csproj" />
+  <Project Path="LibreriaBarberia/LibreriaBarberia.csproj" />
+  <Project Path="PruebasUnitarias/PruebasUnitarias.csproj" />
+</Solution>
