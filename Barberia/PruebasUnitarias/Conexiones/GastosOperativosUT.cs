@@ -3,20 +3,21 @@ using LibreriaBarberia.Entidades;
 using LibreriaBarberia.Implementaciones;
 using LibreriaBarberia.Interfaces;
 
-namespace PruebasUnitarias
+namespace PruebasUnitarias.Conexiones
 {
     [TestClass]
-    public class PerfilUsuariosUT
+    public class GastosOperativosUT
     {
         [TestMethod]
         public void Ejecutar()
         {
             IConexion conexion = new Conexion();
             conexion.StringConexion = "server=DESKTOP-BJQKKO0\\SQLEXPRESS;Integrated Security=True;TrustServerCertificate=true;database=db_barberia;";
-            var lista = conexion.PerfilUsuarios!.ToList();
+            var lista = conexion.GastosOperativos!.ToList();
             if (lista.Count > 0)
                 return;
             throw new Exception();
+
 
 
         }

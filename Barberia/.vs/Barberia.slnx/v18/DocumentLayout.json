@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{919FFA2A-9F9A-9235-DC13-8A5DD4568676}|PruebasUnitarias\\PruebasUnitarias.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\pruebasunitarias\\conexiones\\agendasut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{919FFA2A-9F9A-9235-DC13-8A5DD4568676}|PruebasUnitarias\\PruebasUnitarias.csproj|solutionrelative:pruebasunitarias\\conexiones\\agendasut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{919FFA2A-9F9A-9235-DC13-8A5DD4568676}|PruebasUnitarias\\PruebasUnitarias.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\pruebasunitarias\\pruebasunitarias.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{919FFA2A-9F9A-9235-DC13-8A5DD4568676}|PruebasUnitarias\\PruebasUnitarias.csproj|solutionrelative:pruebasunitarias\\pruebasunitarias.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\interfaces\\isedesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\interfaces\\isedesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\implementaciones\\sedesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\implementaciones\\sedesnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\nucleo\\configuraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\nucleo\\configuraciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\libreriabarberia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\libreriabarberia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F19031CE-219B-A63C-2D7D-7AC6E4ADFC80}|ConsolaBarberia\\ConsolaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\consolabarberia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F19031CE-219B-A63C-2D7D-7AC6E4ADFC80}|ConsolaBarberia\\ConsolaBarberia.csproj|solutionrelative:consolabarberia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{919FFA2A-9F9A-9235-DC13-8A5DD4568676}|PruebasUnitarias\\PruebasUnitarias.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\pruebasunitarias\\agendasut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919FFA2A-9F9A-9235-DC13-8A5DD4568676}|PruebasUnitarias\\PruebasUnitarias.csproj|solutionrelative:pruebasunitarias\\agendasut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\entidades\\agendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\entidades\\agendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\implementaciones\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{919FFA2A-9F9A-9235-DC13-8A5DD4568676}|PruebasUnitarias\\PruebasUnitarias.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\pruebasunitarias\\comisionesut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{919FFA2A-9F9A-9235-DC13-8A5DD4568676}|PruebasUnitarias\\PruebasUnitarias.csproj|solutionrelative:pruebasunitarias\\comisionesut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\interfaces\\iconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|c:\\users\\jose manuel pulgarin\\documents\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
@@ -42,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Script.sql ",
               "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Script.sql",
               "RelativeDocumentMoniker": "LibreriaBarberia\\Script.sql",
@@ -59,13 +71,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\Program.cs",
               "RelativeDocumentMoniker": "ConsolaBarberia\\Program.cs",
               "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\Program.cs",
               "RelativeToolTip": "ConsolaBarberia\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwCYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T01:47:11.624Z",
               "IsPinned": true,
@@ -73,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Implementaciones\\Conexion.cs",
               "RelativeDocumentMoniker": "LibreriaBarberia\\Implementaciones\\Conexion.cs",
               "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Implementaciones\\Conexion.cs",
               "RelativeToolTip": "LibreriaBarberia\\Implementaciones\\Conexion.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAzwCMAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T23:37:16.347Z",
               "IsPinned": true,
@@ -87,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "IConexion.cs",
               "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Interfaces\\IConexion.cs",
               "RelativeDocumentMoniker": "LibreriaBarberia\\Interfaces\\IConexion.cs",
@@ -96,20 +108,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-05T23:43:19.206Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AgendasUT.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PruebasUnitarias\\AgendasUT.cs",
-              "RelativeDocumentMoniker": "PruebasUnitarias\\AgendasUT.cs",
-              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PruebasUnitarias\\AgendasUT.cs",
-              "RelativeToolTip": "PruebasUnitarias\\AgendasUT.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T18:39:25.03Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -139,28 +137,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Agendas.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Entidades\\Agendas.cs",
-              "RelativeDocumentMoniker": "LibreriaBarberia\\Entidades\\Agendas.cs",
-              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Entidades\\Agendas.cs",
-              "RelativeToolTip": "LibreriaBarberia\\Entidades\\Agendas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AgendasUT.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PruebasUnitarias\\Conexiones\\AgendasUT.cs",
+              "RelativeDocumentMoniker": "PruebasUnitarias\\Conexiones\\AgendasUT.cs",
+              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PruebasUnitarias\\Conexiones\\AgendasUT.cs",
+              "RelativeToolTip": "PruebasUnitarias\\Conexiones\\AgendasUT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T18:39:55.232Z",
+              "WhenOpened": "2026-04-07T23:41:02.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ComisionesUT.cs",
-              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PruebasUnitarias\\ComisionesUT.cs",
-              "RelativeDocumentMoniker": "PruebasUnitarias\\ComisionesUT.cs",
-              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PruebasUnitarias\\ComisionesUT.cs",
-              "RelativeToolTip": "PruebasUnitarias\\ComisionesUT.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PruebasUnitarias",
+              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PruebasUnitarias\\PruebasUnitarias.csproj",
+              "RelativeDocumentMoniker": "PruebasUnitarias\\PruebasUnitarias.csproj",
+              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PruebasUnitarias\\PruebasUnitarias.csproj",
+              "RelativeToolTip": "PruebasUnitarias\\PruebasUnitarias.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T23:40:45.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISedesNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Interfaces\\ISedesNegocio.cs",
+              "RelativeDocumentMoniker": "LibreriaBarberia\\Interfaces\\ISedesNegocio.cs",
+              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Interfaces\\ISedesNegocio.cs",
+              "RelativeToolTip": "LibreriaBarberia\\Interfaces\\ISedesNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T18:35:13.761Z",
+              "WhenOpened": "2026-04-07T23:07:37.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SedesNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Implementaciones\\SedesNegocio.cs",
+              "RelativeDocumentMoniker": "LibreriaBarberia\\Implementaciones\\SedesNegocio.cs",
+              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Implementaciones\\SedesNegocio.cs",
+              "RelativeToolTip": "LibreriaBarberia\\Implementaciones\\SedesNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T23:07:13.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configuraciones.cs",
+              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Nucleo\\Configuraciones.cs",
+              "RelativeDocumentMoniker": "LibreriaBarberia\\Nucleo\\Configuraciones.cs",
+              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Nucleo\\Configuraciones.cs",
+              "RelativeToolTip": "LibreriaBarberia\\Nucleo\\Configuraciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T23:05:36.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibreriaBarberia",
+              "DocumentMoniker": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj",
+              "RelativeDocumentMoniker": "LibreriaBarberia\\LibreriaBarberia.csproj",
+              "ToolTip": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj",
+              "RelativeToolTip": "LibreriaBarberia\\LibreriaBarberia.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T23:04:46.359Z",
               "EditorCaption": ""
             }
           ]

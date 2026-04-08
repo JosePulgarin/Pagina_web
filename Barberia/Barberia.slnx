@@ -1,5 +1,11 @@
 <Solution>
-  <Project Path="ConsolaBarberia/ConsolaBarberia.csproj" />
-  <Project Path="LibreriaBarberia/LibreriaBarberia.csproj" />
-  <Project Path="PruebasUnitarias/PruebasUnitarias.csproj" />
+  <Folder Name="/1. presentaciones/">
+    <Project Path="ConsolaBarberia/ConsolaBarberia.csproj" />
+  </Folder>
+  <Folder Name="/2. servicios/">
+    <Project Path="LibreriaBarberia/LibreriaBarberia.csproj" />
+  </Folder>
+  <Folder Name="/3. pruebas unitarias/">
+    <Project Path="PruebasUnitarias/PruebasUnitarias.csproj" />
+  </Folder>
 </Solution>

@@ -3,7 +3,7 @@ using LibreriaBarberia.Entidades;
 using LibreriaBarberia.Implementaciones;
 using LibreriaBarberia.Interfaces;
 
-namespace PruebasUnitarias
+namespace PruebasUnitarias.Conexiones
 {
     [TestClass]
     public class PromocionesEspecialesUT
