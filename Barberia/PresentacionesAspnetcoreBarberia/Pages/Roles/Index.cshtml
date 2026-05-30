@@ -1,0 +1,67 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Roles.IndexModel
+@{
+    ViewData["Title"] = "Lista de Roles";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Roles</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Rol
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Nombre de la Rol</th>
+                        <th style="color: #D4AF37;">Descripcion de la Rol</th>
+                        <th style="color: #D4AF37;">Estado</th>
+                        <th style="color: #D4AF37;">Fecha Creacion</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaRoles.Any())
+                    {
+                        foreach (var Rol in Model.ListaRoles)
+                        {
+                            <tr>
+                                <td>@Rol.Id</td>
+                                <td>@Rol.Nombre</td>
+                                <td>@Rol.Descripcion</td>
+                                <td>@Rol.Estado</td>
+                                <td>@Rol.FechaCreacion</td>
+                                
+                                <td class="text-center">
+                                    <a href="/Roles/Edit/@Rol.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Rol.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Rol del @Rol.FechaCreacion? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Roles registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

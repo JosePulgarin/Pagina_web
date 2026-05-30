@@ -1,0 +1,68 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Portafolios.IndexModel
+@{
+    ViewData["Title"] = "Lista de Portafolios";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Portafolios</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Portafolio
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Ruta del Portafolio</th>
+                        <th style="color: #D4AF37;">Titulo Corte del Portafolio</th>
+                        <th style="color: #D4AF37;">Descripcion</th>
+                        <th style="color: #D4AF37;">ID Barbero</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaPortafolios.Any())
+                    {
+                        foreach (var Portafolio in Model.ListaPortafolios)
+                        {
+                            <tr>
+                                <td>@Portafolio.Id</td>
+                                <td>@Portafolio.Ruta</td>
+                                <td>@Portafolio.TituloCorte</td>
+                                <td>@Portafolio.Descripcion</td>
+                         
+                               
+                                <td>@Portafolio.IdBarbero</td>
+                                <td class="text-center">
+                                    <a href="/Portafolios/Edit/@Portafolio.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Portafolio.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Portafolio del @Portafolio.TituloCorte? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Portafolios registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Barbería JP</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PresentacionesAspnetcoreBarberia.styles.css" asp-append-version="true" />
+</head>
+<body style="background-color: #121212; color: #FFFFFF;">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom" style="background-color: #1E1E1E; border-color: #D4AF37 !important;">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: #D4AF37; font-weight: bold;" asp-area="" asp-page="/Index">💈 Barbería JP</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="/Barberos/Index">Barberos & Reseñas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Sedes/Index">Sedes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Servicios/Index">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/Productos/Index">Productos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar collapse" style="background-color: #1E1E1E; min-height: 85vh;">
+                <div class="position-sticky pt-3">
+
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 mb-1 text-muted">
+                        <span style="color: #D4AF37; font-size: 0.85rem; font-weight: bold;">📅 OPERACIONES</span>
+                    </h6>
+                    <ul class="nav flex-column mb-3" style="font-size: 0.9rem;">
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Agendas/Index">Agendas</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Clientes/Index">Clientes</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Facturas/Index">Facturas</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Membresias/Index">Membresías</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/MetodosPago/Index">Métodos de Pago</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/PromocionesEspeciales/Index">Promos Especiales</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/PromocionesServicios/Index">Promos Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/ReseñasClientes/Index">Reseñas</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Reservas/Index">Reservas</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/ReservasServicios/Index">Reservas Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Servicios/Index">Servicios</a></li>
+                    </ul>
+
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 mb-1 text-muted">
+                        <span style="color: #D4AF37; font-size: 0.85rem; font-weight: bold;">✂️ PERSONAL</span>
+                    </h6>
+                    <ul class="nav flex-column mb-3" style="font-size: 0.9rem;">
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Barberos/Index">Barberos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Comisiones/Index">Comisiones</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/HorariosLaborales/Index">Horarios Laborales</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Portafolios/Index">Portafolios</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Recepcionistas/Index">Recepcionistas</a></li>
+                    </ul>
+
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 mb-1 text-muted">
+                        <span style="color: #D4AF37; font-size: 0.85rem; font-weight: bold;">📦 INVENTARIO & CAJA</span>
+                    </h6>
+                    <ul class="nav flex-column mb-3" style="font-size: 0.9rem;">
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/CategoriasProductos/Index">Categorías Productos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/GastosOperativos/Index">Gastos Operativos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Inventarios/Index">Inventarios</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Productos/Index">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Proveedores/Index">Proveedores</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Sedes/Index">Sedes</a></li>
+                    </ul>
+
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 mb-1 text-muted">
+                        <span style="color: #D4AF37; font-size: 0.85rem; font-weight: bold;">⚙️ SISTEMA</span>
+                    </h6>
+                    <ul class="nav flex-column mb-4" style="font-size: 0.9rem;">
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Historicos/Index">Históricos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/PerfilUsuarios/Index">Perfil Usuarios</a></li>
+                        <li class="nav-item"><a class="nav-link text-white py-1" href="/Roles/Index">Roles</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 mt-4 pb-5">
+                @RenderBody()
+            </main>
+
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted mt-auto" style="background-color: #1E1E1E; border-color: #D4AF37 !important;">
+        <div class="container text-center py-3">
+            <span style="color: #FFFFFF;">&copy; 2026 - Barbería JP - </span><a asp-area="" asp-page="/Privacy" style="color: #D4AF37; text-decoration: none;">Privacidad</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

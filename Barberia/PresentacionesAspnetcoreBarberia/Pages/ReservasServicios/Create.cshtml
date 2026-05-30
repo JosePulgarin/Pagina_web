@@ -1,0 +1,57 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.ReservasServicios.CreateModel
+@{
+    ViewData["Title"] = "Nueva ReservaServicio";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold">📅 Registrar Nueva ReservaServicio</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="ReservaServicio.Precio" class="form-label" style="color: #D4AF37; font-weight: bold;">Precio de la ReservaServicio</label>
+                            <input asp-for="ReservaServicio.Precio" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReservaServicio.Precio" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ReservaServicio.Observacion" class="form-label" style="color: #D4AF37; font-weight: bold;">Observacion de la ReservaServicio</label>
+                            <input asp-for="ReservaServicio.Observacion" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReservaServicio.Observacion" class="text-danger"></span>
+                        </div>
+
+                        
+                        <div class="mb-3">
+                            <label asp-for="ReservaServicio.IdServicio" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Servicio</label>
+                            <input asp-for="ReservaServicio.IdServicio" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReservaServicio.IdServicio" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ReservaServicio.IdReserva" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Reserva</label>
+                            <input asp-for="ReservaServicio.IdReserva" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReservaServicio.IdReserva" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                💾 Guardar ReservaServicio
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

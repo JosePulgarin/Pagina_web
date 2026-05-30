@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LibreriaBarberia.Nucleo
+﻿namespace LibreriaBarberia.Nucleo
 {
-    internal class Configuraciones
+    public class Configuraciones
     {
+        public static string obtener(string clave)
+        {
+            return "server=localhost\\SQLEXPRESS;database=db_barberia;Integrated Security=True;TrustServerCertificate=true;";
+        }
     }
 }
+
+// Nombre del PC mío: DESKTOP-BJQKKO0
+// Para usar en otro PC: localhost

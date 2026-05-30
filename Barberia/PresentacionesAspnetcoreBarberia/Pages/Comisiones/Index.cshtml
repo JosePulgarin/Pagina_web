@@ -1,0 +1,70 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Comisiones.IndexModel
+@{
+    ViewData["Title"] = "Lista de Comisiones";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Comisiones</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Comision
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Porcentaje aplicado a la comisión</th>
+                        <th style="color: #D4AF37;">Monto de la comisión</th>
+                        <th style="color: #D4AF37;">Fecha</th>
+                        <th style="color: #D4AF37;">Estado de la liquidación</th>
+                        <th style="color: #D4AF37;">ID factura</th>
+                        <th style="color: #D4AF37;">ID Barbero</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaComisiones.Any())
+                    {
+                        foreach (var Comision in Model.ListaComisiones)
+                        {
+                            <tr>
+                                <td>@Comision.Id</td>
+                                <td>@Comision.PorcentajeAplicado</td>
+                                <td>@Comision.Monto</td>
+                                <td>@Comision.Fecha</td>
+                                <td>@Comision.EstadoLiquidacion</td>
+                                <td>@Comision.IdFactura</td>
+                                <td>@Comision.IdBarbero</td>
+                                <td class="text-center">
+                                    <a href="/Comisiones/Edit/@Comision.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Comision.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Comision del @Comision.Fecha? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Comisiones registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

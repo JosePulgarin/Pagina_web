@@ -1,0 +1,77 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.Barberos.EditModel
+@{
+    ViewData["Title"] = "Editar Barbero";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar Barbero</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Barbero.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Barbero.Nombre" class="form-label" style="color: #D4AF37; font-weight: bold;">Nombre de la Barbero</label>
+                            <input asp-for="Barbero.Nombre" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Barbero.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Barbero.Correo" class="form-label" style="color: #D4AF37; font-weight: bold;">Correo de la Barbero</label>
+                            <input asp-for="Barbero.Correo" type="email" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Barbero.Correo" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Barbero.FechaNacimiento" class="form-label" style="color: #D4AF37; font-weight: bold;">Fecha de nacimiento del Barbero</label>
+                            <input asp-for="Barbero.FechaNacimiento" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Barbero.FechaNacimiento" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Barbero.Especialidad" class="form-label" style="color: #D4AF37; font-weight: bold;">Especialidad de la Barbero</label>
+                            <input asp-for="Barbero.Especialidad" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Barbero.Especialidad" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Barbero.Biografia" class="form-label" style="color: #D4AF37; font-weight: bold;">Biografia de la Barbero</label>
+                            <input asp-for="Barbero.Biografia" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Barbero.Biografia" class="text-danger"></span>
+                        </div>
+
+                     
+
+                        <div class="mb-3">
+                            <label asp-for="Barbero.IdUsuario" class="form-label" style="color: #D4AF37; font-weight: bold;">ID de usuario del Barbero</label>
+                            <input asp-for="Barbero.IdUsuario" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Barbero.IdUsuario" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Barbero.IdSede" class="form-label" style="color: #D4AF37; font-weight: bold;">Id de Sede del Barbero</label>
+                            <input asp-for="Barbero.IdSede" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Barbero.IdSede" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar Barbero
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

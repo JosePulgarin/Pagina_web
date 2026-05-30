@@ -1,0 +1,67 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Proveedores.IndexModel
+@{
+    ViewData["Title"] = "Lista de Proveedores";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Proveedores</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Proveedor
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Nombre de la Proveedor</th>
+                        <th style="color: #D4AF37;">Nombre Empresa</th>
+                        <th style="color: #D4AF37;">Correo</th>
+                        <th style="color: #D4AF37;">Telefono</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaProveedores.Any())
+                    {
+                        foreach (var Proveedor in Model.ListaProveedores)
+                        {
+                            <tr>
+                                <td>@Proveedor.Id</td>
+                                <td>@Proveedor.Nombre</td>
+                                <td>@Proveedor.NombreEmpresa</td>
+
+                                <td>@Proveedor.Correo</td>
+                                <td>@Proveedor.Telefono</td>
+                                <td class="text-center">
+                                    <a href="/Proveedores/Edit/@Proveedor.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Proveedor.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Proveedor del @Proveedor.Correo? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Proveedores registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

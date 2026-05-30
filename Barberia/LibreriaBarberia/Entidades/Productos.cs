@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace LibreriaBarberia.Entidades
 {
@@ -12,7 +13,12 @@ namespace LibreriaBarberia.Entidades
         public int StockActual { get; set; }
         public int IdInventario { get; set; }
         public int IdProveedor { get; set; }
+        public int IdCategoria { get; set; }
+        [JsonIgnore]
         [ForeignKey("IdInventario")] public Inventarios? Inventarios { get; set; }
+        [JsonIgnore]
         [ForeignKey("IdProveedor")] public Proveedores? Proveedores { get; set; }
+        [JsonIgnore]
+        [ForeignKey("IdCategoria")] public CategoriasProductos? CategoriasProductos { get; set; }
     }
 }

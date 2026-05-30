@@ -1,0 +1,71 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Productos.IndexModel
+@{
+    ViewData["Title"] = "Lista de Productos";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Productos</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Producto
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Marca Producto</th>
+                        <th style="color: #D4AF37;">Nombre Articulo</th>
+                        <th style="color: #D4AF37;">Stock Actual</th>
+                        <th style="color: #D4AF37;">Id Inventario</th>
+                        <th style="color: #D4AF37;">Id Proveedor</th>
+                        <th style="color: #D4AF37;">Id Categoria</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaProductos.Any())
+                    {
+                        foreach (var Producto in Model.ListaProductos)
+                        {
+                            <tr>
+                                <td>@Producto.Id</td>
+                                <td>@Producto.MarcaProducto</td>
+                                <td>@Producto.NombreArticulo</td>
+                                <td>@Producto.Precio</td>
+                                <td>@Producto.StockActual</td>
+                                <td>@Producto.IdInventario</td>
+                                <td>@Producto.IdProveedor</td>
+                                <td>@Producto.IdCategoria</td>
+                                <td class="text-center">
+                                    <a href="/Productos/Edit/@Producto.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Producto.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Producto del @Producto.NombreArticulo? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Productos registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

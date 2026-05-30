@@ -15,6 +15,7 @@
 	</ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AppiBarberia\AppiBarberia.csproj" />
     <ProjectReference Include="..\LibreriaBarberia\LibreriaBarberia.csproj" />
   </ItemGroup>
 
@@ -22,4 +23,6 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
+	
+	
 </Project>

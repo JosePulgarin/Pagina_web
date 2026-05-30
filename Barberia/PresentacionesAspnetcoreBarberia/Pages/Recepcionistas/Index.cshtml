@@ -1,0 +1,71 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Recepcionistas.IndexModel
+@{
+    ViewData["Title"] = "Lista de Recepcionistas";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Recepcionistas</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Recepcionista
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Nombre de la Recepcionista</th>
+                        <th style="color: #D4AF37;">FechaNacimiento de la Recepcionista</th>
+                        <th style="color: #D4AF37;">Turno</th>
+                        <th style="color: #D4AF37;">Telefono</th>
+                        <th style="color: #D4AF37;">Id Usuario</th>
+                        <th style="color: #D4AF37;">Id Sede</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaRecepcionistas.Any())
+                    {
+                        foreach (var Recepcionista in Model.ListaRecepcionistas)
+                        {
+                            <tr>
+                                <td>@Recepcionista.Id</td>
+                                <td>@Recepcionista.Nombre</td>
+                                <td>@Recepcionista.FechaNacimiento</td>
+                                <td>@Recepcionista.Turno</td>
+                                <td>@Recepcionista.Telefono</td>
+                                <td>@Recepcionista.IdUsuario</td>
+                                <td>@Recepcionista.IdSede</td>
+                                
+                                <td class="text-center">
+                                    <a href="/Recepcionistas/Edit/@Recepcionista.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Recepcionista.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Recepcionista del @Recepcionista.FechaNacimiento? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Recepcionistas registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

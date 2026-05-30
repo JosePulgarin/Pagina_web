@@ -1,0 +1,67 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Servicios.IndexModel
+@{
+    ViewData["Title"] = "Lista de Servicios";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Servicios</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Servicio
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Nombre de la Servicio</th>
+                        <th style="color: #D4AF37;">Costo de la Servicio</th>
+                        <th style="color: #D4AF37;">Tiempo</th>
+                        <th style="color: #D4AF37;">Nota</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaServicios.Any())
+                    {
+                        foreach (var Servicio in Model.ListaServicios)
+                        {
+                            <tr>
+                                <td>@Servicio.Id</td>
+                                <td>@Servicio.Nombre</td>
+                                <td>@Servicio.Costo</td>
+                                <td>@Servicio.Tiempo</td>
+                                <td>@Servicio.Nota</td>
+                               
+                                <td class="text-center">
+                                    <a href="/Servicios/Edit/@Servicio.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Servicio.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Servicio del @Servicio.Nombre? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Servicios registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

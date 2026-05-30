@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5DFEA5-1ACD-49F6-921B-3E9653A87A6A}|AppiBarberia\\AppiBarberia.csproj|d:\\itm\\2026-1\\desarrollo de software\\pagina_web_final\\pagina_web\\barberia\\appibarberia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B5DFEA5-1ACD-49F6-921B-3E9653A87A6A}|AppiBarberia\\AppiBarberia.csproj|solutionrelative:appibarberia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90FC077C-CECF-4759-828A-FBE257125A19}|PresentacionesAspnetcoreBarberia\\PresentacionesAspnetcoreBarberia.csproj|d:\\itm\\2026-1\\desarrollo de software\\pagina_web_final\\pagina_web\\barberia\\presentacionesaspnetcorebarberia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90FC077C-CECF-4759-828A-FBE257125A19}|PresentacionesAspnetcoreBarberia\\PresentacionesAspnetcoreBarberia.csproj|solutionrelative:presentacionesaspnetcorebarberia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|d:\\itm\\2026-1\\desarrollo de software\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|d:\\itm\\2026-1\\desarrollo de software\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Script.sql ",
+              "DocumentMoniker": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Script.sql",
+              "RelativeDocumentMoniker": "LibreriaBarberia\\Script.sql",
+              "ToolTip": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Script.sql",
+              "RelativeToolTip": "LibreriaBarberia\\Script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-30T00:53:09.634Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PresentacionesAspnetcoreBarberia\\Program.cs",
+              "RelativeDocumentMoniker": "PresentacionesAspnetcoreBarberia\\Program.cs",
+              "ToolTip": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\PresentacionesAspnetcoreBarberia\\Program.cs",
+              "RelativeToolTip": "PresentacionesAspnetcoreBarberia\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T01:19:44.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\AppiBarberia\\Program.cs",
+              "RelativeDocumentMoniker": "AppiBarberia\\Program.cs",
+              "ToolTip": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\AppiBarberia\\Program.cs",
+              "RelativeToolTip": "AppiBarberia\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T01:12:57.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

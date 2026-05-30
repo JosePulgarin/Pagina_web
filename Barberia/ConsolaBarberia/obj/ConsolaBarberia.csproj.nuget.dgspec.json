@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\ConsolaBarberia.csproj": {}
+    "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\ConsolaBarberia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\ConsolaBarberia.csproj": {
+    "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\ConsolaBarberia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\ConsolaBarberia.csproj",
+        "projectUniqueName": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\ConsolaBarberia.csproj",
         "projectName": "ConsolaBarberia",
-        "projectPath": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\ConsolaBarberia.csproj",
-        "packagesPath": "C:\\Users\\Jose Manuel Pulgarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\obj\\",
+        "projectPath": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\ConsolaBarberia.csproj",
+        "packagesPath": "C:\\Users\\salak401\\.nuget\\packages\\",
+        "outputPath": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\ConsolaBarberia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jose Manuel Pulgarin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\salak401\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,11 +31,10 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj": {
-                "projectPath": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj"
+              "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj": {
+                "projectPath": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj"
               }
             }
           }
@@ -50,11 +49,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -72,24 +70,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj": {
+    "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj",
+        "projectUniqueName": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj",
         "projectName": "LibreriaBarberia",
-        "projectPath": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj",
-        "packagesPath": "C:\\Users\\Jose Manuel Pulgarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Manuel Pulgarin\\Documents\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\obj\\",
+        "projectPath": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\LibreriaBarberia.csproj",
+        "packagesPath": "C:\\Users\\salak401\\.nuget\\packages\\",
+        "outputPath": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jose Manuel Pulgarin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\salak401\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,7 +101,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -118,16 +115,27 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
@@ -146,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

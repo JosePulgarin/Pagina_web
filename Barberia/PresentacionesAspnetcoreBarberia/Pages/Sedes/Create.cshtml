@@ -1,0 +1,59 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Sedes.CreateModel
+@{
+    ViewData["Title"] = "Nueva Sede";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold">📅 Registrar Nueva Sede</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="Sede.Nombre" class="form-label" style="color: #D4AF37; font-weight: bold;">Nombre de la Sede</label>
+                            <input asp-for="Sede.Nombre" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Sede.Nombre" class="text-danger"></span>
+                        </div>
+
+                          <div class="mb-3">
+                            <label asp-for="Sede.Direccion" class="form-label" style="color: #D4AF37; font-weight: bold;">Direccion de la Sede</label>
+                            <input asp-for="Sede.Direccion" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Sede.Direccion" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label asp-for="Sede.Ciudad" class="form-label" style="color: #D4AF37; font-weight: bold;">Ciudad de la Sede</label>
+                            <input asp-for="Sede.Ciudad" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Sede.Ciudad" class="text-danger"></span>
+                        </div>
+
+                   
+
+                        <div class="mb-3">
+                            <label asp-for="Sede.Correo" class="form-label" style="color: #D4AF37; font-weight: bold;">Correo</label>
+                            <input asp-for="Sede.Correo" type="email" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Sede.Correo" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                💾 Guardar Sede
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

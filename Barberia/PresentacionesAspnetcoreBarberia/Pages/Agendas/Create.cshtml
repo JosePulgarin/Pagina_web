@@ -1,0 +1,62 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Agendas.CreateModel
+@{
+    ViewData["Title"] = "Nueva Agenda";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold">📅 Registrar Nueva Agenda</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="Agenda.Fecha" class="form-label" style="color: #D4AF37; font-weight: bold;">Fecha de la Agenda</label>
+                            <input asp-for="Agenda.Fecha" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Agenda.Fecha" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Agenda.Hora" class="form-label" style="color: #D4AF37; font-weight: bold;">Hora de la Agenda</label>
+                            <input asp-for="Agenda.Hora" type="time" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Agenda.Hora" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Agenda.Estado" class="form-label" style="color: #D4AF37; font-weight: bold;">Estado</label>
+                            <select asp-for="Agenda.Estado" class="form-select text-white" style="background-color: #121212; border: 1px solid #6c757d;" required>
+                                <option value="">Seleccione un estado...</option>
+                                <option value="Pendiente">Pendiente</option>
+                                <option value="Confirmada">Confirmada</option>
+                                <option value="Completada">Completada</option>
+                                <option value="Cancelada">Cancelada</option>
+                            </select>
+                            <span asp-validation-for="Agenda.Estado" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Agenda.IdBarbero" class="form-label" style="color: #D4AF37; font-weight: bold;">ID del Barbero</label>
+                            <input asp-for="Agenda.IdBarbero" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Agenda.IdBarbero" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                💾 Guardar Agenda
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

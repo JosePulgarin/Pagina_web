@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
+
 
 namespace LibreriaBarberia.Entidades
 {
@@ -10,6 +12,7 @@ namespace LibreriaBarberia.Entidades
         public string? Descuento { get; set; }
         public DateOnly FechaInicio { get; set; }
         public DateOnly FechaFin { get; set; }
+        [JsonIgnore]
         [NotMapped] public List<PromocionesServicios>? PromocionesServicios { get; set; }
     }
 }

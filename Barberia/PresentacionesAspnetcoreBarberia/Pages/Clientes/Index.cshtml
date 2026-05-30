@@ -1,0 +1,72 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Clientes.IndexModel
+@{
+    ViewData["Title"] = "Lista de Clientes";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Clientes</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Cliente
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Nombre del Cliente</th>
+                        <th style="color: #D4AF37;">Telefono del Cliente</th>
+                        <th style="color: #D4AF37;">Correo del cliente</th>
+                        <th style="color: #D4AF37;">ID usuario</th>
+                        <th style="color: #D4AF37;">ID Sede</th>
+                        <th style="color: #D4AF37;">ID Membresia</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaClientes.Any())
+                    {
+                        foreach (var Cliente in Model.ListaClientes)
+                        {
+                            <tr>
+                                <td>@Cliente.Id</td>
+                                <td>@Cliente.Nombre</td>
+                                <td>@Cliente.Telefono</td>
+                                <td>@Cliente.Correo</td>
+                                <td>@Cliente.IdUsuario</td>
+                                <td>@Cliente.IdSede</td>
+                                <td>@Cliente.IdMembresia</td>
+
+                               
+                                <td class="text-center">
+                                    <a href="/Clientes/Edit/@Cliente.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Cliente.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Cliente del @Cliente.Nombre? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Clientes registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

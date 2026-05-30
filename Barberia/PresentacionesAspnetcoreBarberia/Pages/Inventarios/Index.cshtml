@@ -1,0 +1,69 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Inventarios.IndexModel
+@{
+    ViewData["Title"] = "Lista de Inventarios";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Inventarios</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Inventario
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Nombre del Inventario</th>
+                        <th style="color: #D4AF37;">Descripcion del Inventario</th>
+                        <th style="color: #D4AF37;">Cantidad Actual</th>
+                        <th style="color: #D4AF37;">Fecha Abastecimiento</th>
+                        <th style="color: #D4AF37;">Id Sede</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaInventarios.Any())
+                    {
+                        foreach (var Inventario in Model.ListaInventarios)
+                        {
+                            <tr>
+                                <td>@Inventario.Id</td>
+                                <td>@Inventario.Nombre</td>
+                                <td>@Inventario.Descripcion</td>
+                                <td>@Inventario.CantidadActual</td>
+                                <td>@Inventario.FechaAbastecimiento</td>
+                              
+                                <td>@Inventario.IdSede</td>
+                                <td class="text-center">
+                                    <a href="/Inventarios/Edit/@Inventario.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Inventario.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Inventario del @Inventario.FechaAbastecimiento? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Inventarios registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

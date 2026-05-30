@@ -1,0 +1,64 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.Inventarios.EditModel
+@{
+    ViewData["Title"] = "Editar Inventario";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar Inventario</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Inventario.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Inventario.Nombre" class="form-label" style="color: #D4AF37; font-weight: bold;">Nombre de la Inventario</label>
+                            <input asp-for="Inventario.Nombre" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Inventario.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Inventario.Descripcion" class="form-label" style="color: #D4AF37; font-weight: bold;">Descripcion de la Inventario</label>
+                            <input asp-for="Inventario.Descripcion" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Inventario.Descripcion" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Inventario.CantidadActual" class="form-label" style="color: #D4AF37; font-weight: bold;">Cantidad Actual de la Inventario</label>
+                            <input asp-for="Inventario.CantidadActual" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Inventario.CantidadActual" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Inventario.FechaAbastecimiento" class="form-label" style="color: #D4AF37; font-weight: bold;">FechaAbastecimiento de la Inventario</label>
+                            <input asp-for="Inventario.FechaAbastecimiento" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Inventario.FechaAbastecimiento" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label asp-for="Inventario.IdSede" class="form-label" style="color: #D4AF37; font-weight: bold;">ID sede</label>
+                            <input asp-for="Inventario.IdSede" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Inventario.IdSede" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar Inventario
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
