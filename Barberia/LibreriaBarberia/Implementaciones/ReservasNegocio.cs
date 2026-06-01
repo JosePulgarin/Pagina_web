@@ -19,7 +19,11 @@ namespace LibreriaBarberia.Implementaciones
             if (entidad.Id != 0)
                 throw new Exception("Para guardar un Reserva nuevo, el Id debe ser 0. Si envías un Id, significa que ya existe.");
 
+<<<<<<< HEAD
             if (string.IsNullOrWhiteSpace(entidad.Notas) || entidad.Fecha < DateOnly.FromDateTime(DateTime.Now))
+=======
+            if (string.IsNullOrWhiteSpace(entidad.Notas) || entidad.Fecha > DateOnly.FromDateTime(DateTime.Now))
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
                 throw new Exception("La reserva debe tener notas para más información y la fecha debe ser valida");
 
             // Conexión y guardado
@@ -79,9 +83,12 @@ namespace LibreriaBarberia.Implementaciones
             if (entidad.Id == 0)
                 throw new Exception("Error: Para modificar un Reserva, debes enviar su número de Id.");
 
+<<<<<<< HEAD
             if (string.IsNullOrWhiteSpace(entidad.Notas) || entidad.Fecha < DateOnly.FromDateTime(DateTime.Now))
                 throw new Exception("La reserva debe tener notas para más información y la fecha debe ser valida");
 
+=======
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
             this.iConexion = new Conexion();
             this.iConexion.string_conexion = Configuraciones.obtener("string_conexion");
             // ¡Aquí brilla el EntityEntry! Le avisa a la base de datos que este Reserva fue editado

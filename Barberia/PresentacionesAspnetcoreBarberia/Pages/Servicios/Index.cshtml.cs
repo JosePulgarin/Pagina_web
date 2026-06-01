@@ -28,7 +28,10 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Servicios
             var registro = new HistoricosClase
             {
                 Usuario = "Admin", // Aquí podrías poner el usuario real si tienes autenticación
+<<<<<<< HEAD
                 Entidad = "Servicios",
+=======
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
                 Accion = "Consultó la lista de Servicios",
                 Fecha = DateTime.Now
             };
