@@ -1,0 +1,63 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.GastosOperativos.EditModel
+@{
+    ViewData["Title"] = "Editar GastoOperativo";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar GastoOperativo</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="GastoOperativo.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="GastoOperativo.Categoria" class="form-label" style="color: #D4AF37; font-weight: bold;">Categoria de la GastoOperativo</label>
+                            <input asp-for="GastoOperativo.Categoria" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="GastoOperativo.Categoria" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="GastoOperativo.Monto" class="form-label" style="color: #D4AF37; font-weight: bold;">Monto de la GastoOperativo</label>
+                            <input asp-for="GastoOperativo.Monto" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="GastoOperativo.Monto" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="GastoOperativo.FechaPago" class="form-label" style="color: #D4AF37; font-weight: bold;">Fecha Pago</label>
+                            <input asp-for="GastoOperativo.FechaPago" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="GastoOperativo.FechaPago" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="GastoOperativo.NumeroComprobante" class="form-label" style="color: #D4AF37; font-weight: bold;">NumeroComprobante del GastoOperativo</label>
+                            <input asp-for="GastoOperativo.NumeroComprobante" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="GastoOperativo.NumeroComprobante" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="GastoOperativo.IdSede" class="form-label" style="color: #D4AF37; font-weight: bold;">ID sede</label>
+                            <input asp-for="GastoOperativo.IdSede" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="GastoOperativo.IdSede" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar GastoOperativo
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

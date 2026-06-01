@@ -1,0 +1,65 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.HorariosLaborales.EditModel
+@{
+    ViewData["Title"] = "Editar HorarioLaboral";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar HorarioLaboral</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="HorarioLaboral.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="HorarioLaboral.Dia" class="form-label" style="color: #D4AF37; font-weight: bold;">Dia del horario</label>
+                            <input asp-for="HorarioLaboral.Dia" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="HorarioLaboral.Dia" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="HorarioLaboral.HoraApertura" class="form-label" style="color: #D4AF37; font-weight: bold;">Hora Apertura</label>
+                            <input asp-for="HorarioLaboral.HoraApertura" type="time" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="HorarioLaboral.HoraApertura" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="HorarioLaboral.HoraCierre" class="form-label" style="color: #D4AF37; font-weight: bold;">Hora Cierre</label>
+                            <input asp-for="HorarioLaboral.HoraCierre" type="time" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="HorarioLaboral.HoraCierre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="HorarioLaboral.DiaFestivo" class="form-label" style="color: #D4AF37; font-weight: bold;">Dia Festivo?</label>
+                            <input asp-for="HorarioLaboral.DiaFestivo" type="checkbox" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="HorarioLaboral.DiaFestivo" class="text-danger"></span>
+                        </div>
+
+                      
+
+                        <div class="mb-3">
+                            <label asp-for="HorarioLaboral.IdSede" class="form-label" style="color: #D4AF37; font-weight: bold;">ID sede</label>
+                            <input asp-for="HorarioLaboral.IdSede" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="HorarioLaboral.IdSede" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar HorarioLaboral
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

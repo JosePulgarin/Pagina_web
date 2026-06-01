@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace LibreriaBarberia.Entidades
 {
@@ -11,6 +12,7 @@ namespace LibreriaBarberia.Entidades
         public DateOnly FechaPublicacion { get; set; }
         public string? Etiquetas { get; set; }
         public int IdReserva { get; set; }
+        [JsonIgnore]
         [ForeignKey("IdReserva")] public Reservas? Reservas { get; set; }
     }
 }

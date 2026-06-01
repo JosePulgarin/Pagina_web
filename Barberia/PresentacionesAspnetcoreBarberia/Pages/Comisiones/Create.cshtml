@@ -1,0 +1,69 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Comisiones.CreateModel
+@{
+    ViewData["Title"] = "Nueva Comision";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold">📅 Registrar Nueva Comision</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="Comision.PorcentajeAplicado" class="form-label" style="color: #D4AF37; font-weight: bold;">Porcentaje Aplicado de la Comision</label>
+                            <input asp-for="Comision.PorcentajeAplicado" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Comision.PorcentajeAplicado" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Comision.Monto" class="form-label" style="color: #D4AF37; font-weight: bold;">Monto de la Comision</label>
+                            <input asp-for="Comision.Monto" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Comision.Monto" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Comision.Fecha" class="form-label" style="color: #D4AF37; font-weight: bold;">Fecha de la Comision</label>
+                            <input asp-for="Comision.Fecha" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Comision.Fecha" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Comision.EstadoLiquidacion" class="form-label" style="color: #D4AF37; font-weight: bold;">Estado Liquidacion de la Comision</label>
+                            <input asp-for="Comision.EstadoLiquidacion" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Comision.EstadoLiquidacion" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Comision.IdFactura" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Factura del Barbero</label>
+                            <input asp-for="Comision.IdFactura" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Comision.IdFactura" class="text-danger"></span>
+                        </div>
+                       
+
+                        <div class="mb-3">
+                            <label asp-for="Comision.IdBarbero" class="form-label" style="color: #D4AF37; font-weight: bold;">ID del Barbero</label>
+                            <input asp-for="Comision.IdBarbero" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Comision.IdBarbero" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                💾 Guardar Comision
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,70 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.PerfilUsuarios.IndexModel
+@{
+    ViewData["Title"] = "Lista de PerfilUsuarios";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de PerfilUsuarios</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar PerfilUsuario
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Correo del usuario</th>
+                        <th style="color: #D4AF37;">Contraseña del Usuario</th>
+                        <th style="color: #D4AF37;">Estado</th>
+                        <th style="color: #D4AF37;">ID Rol</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaPerfilUsuarios.Any())
+                    {
+                        foreach (var PerfilUsuario in Model.ListaPerfilUsuarios)
+                        {
+                            <tr>
+                                <td>@PerfilUsuario.Id</td>
+                                <td>@PerfilUsuario.Correo</td>
+                                <td>@PerfilUsuario.Contraseña</td>
+                                <td>
+                                    <span class="badge bg-secondary">@PerfilUsuario.Estado</span>
+                                </td>
+                                <td>@PerfilUsuario.IdRol</td>
+                                
+                              
+                                <td class="text-center">
+                                    <a href="/PerfilUsuarios/Edit/@PerfilUsuario.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@PerfilUsuario.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la PerfilUsuario del @PerfilUsuario.Correo? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron PerfilUsuarios registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

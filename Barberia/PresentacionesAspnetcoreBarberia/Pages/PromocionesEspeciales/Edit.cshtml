@@ -1,0 +1,57 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.PromocionesEspeciales.EditModel
+@{
+    ViewData["Title"] = "Editar PromocionEspecial";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar PromocionEspecial</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="PromocionEspecial.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="PromocionEspecial.Nombre" class="form-label" style="color: #D4AF37; font-weight: bold;">Nombre de la PromocionEspecial</label>
+                            <input asp-for="PromocionEspecial.Nombre" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PromocionEspecial.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PromocionEspecial.Descuento" class="form-label" style="color: #D4AF37; font-weight: bold;">Descuento de la PromocionEspecial</label>
+                            <input asp-for="PromocionEspecial.Descuento" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PromocionEspecial.Descuento" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PromocionEspecial.FechaInicio" class="form-label" style="color: #D4AF37; font-weight: bold;">Fecha Inicio</label>
+                            <input asp-for="PromocionEspecial.FechaInicio" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PromocionEspecial.FechaInicio" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PromocionEspecial.FechaFin" class="form-label" style="color: #D4AF37; font-weight: bold;">Fecha Fin</label>
+                            <input asp-for="PromocionEspecial.FechaFin" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PromocionEspecial.FechaFin" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar PromocionEspecial
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

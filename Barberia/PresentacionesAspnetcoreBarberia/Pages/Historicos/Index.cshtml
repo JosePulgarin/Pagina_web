@@ -1,0 +1,50 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Historicos.IndexModel
+@{
+    ViewData["Title"] = "Bitácora de Sistema";
+}
+
+<div class="card shadow-sm fade-in">
+    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+        <h3 class="mb-0"><i class="fa-solid fa-clock-rotate-left"></i> Historial de Acciones</h3>
+        <span class="badge bg-secondary">Modo Auditoría</span>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped table-hover mt-3">
+            <thead class="table-dark">
+                <tr>
+                    <th>Usuario</th>
+                    <th>Entidad</th>
+                    <th>Acción Realizada</th>
+                    <th>Fecha y Hora</th>
+                    
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.ListaHistoricos.Any())
+                {
+                    foreach (var item in Model.ListaHistoricos)
+                    {
+                        <tr>
+                            <td><span class="badge bg-info text-dark">@item.Usuario</span></td>
+                            <td><span class="badge bg-primary">@item.Entidad</span></td>
+                            <td>@item.Accion</td>
+                            <td>@(item.Fecha.HasValue? item.Fecha.Value.ToString("dd/MM/yyyy HH:mm:ss") : "Sin fecha")</td>
+                            
+                            
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4" class="text-center text-muted py-4">
+                            No hay registros de actividad en la bitácora.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

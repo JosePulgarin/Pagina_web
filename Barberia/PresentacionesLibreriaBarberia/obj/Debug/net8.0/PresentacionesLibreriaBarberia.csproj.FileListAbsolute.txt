@@ -1,0 +1,17 @@
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\bin\Debug\net8.0\PresentacionesLibreriaBarberia.deps.json
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\bin\Debug\net8.0\PresentacionesLibreriaBarberia.dll
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\bin\Debug\net8.0\PresentacionesLibreriaBarberia.pdb
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\PresentacionesLibreriaBarberia.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\PresentacionesLibreriaBarberia.AssemblyInfoInputs.cache
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\PresentacionesLibreriaBarberia.AssemblyInfo.cs
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\PresentacionesLibreriaBarberia.csproj.CoreCompileInputs.cache
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\PresentacionesLibreriaBarberia.sourcelink.json
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\PresentacionesLibreriaBarberia.dll
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\refint\PresentacionesLibreriaBarberia.dll
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\PresentacionesLibreriaBarberia.pdb
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\ref\PresentacionesLibreriaBarberia.dll
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\bin\Debug\net8.0\LibreriaBarberia.dll
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\bin\Debug\net8.0\LibreriaBarberia.pdb
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\PresentacionesLibreriaBarberia.csproj.AssemblyReference.cache
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\obj\Debug\net8.0\Presenta.42B8F47D.Up2Date
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesLibreriaBarberia\bin\Debug\net8.0\Script.sql

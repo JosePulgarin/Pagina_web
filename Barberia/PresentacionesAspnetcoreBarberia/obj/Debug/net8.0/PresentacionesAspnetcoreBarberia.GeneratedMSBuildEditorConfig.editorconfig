@@ -1,0 +1,341 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PresentacionesAspnetcoreBarberia
+build_property.RootNamespace = PresentacionesAspnetcoreBarberia
+build_property.ProjectDir = D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Agendas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbmRhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Agendas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbmRhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Agendas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbmRhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Barberos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFyYmVyb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Barberos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFyYmVyb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Barberos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFyYmVyb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/CategoriasProductos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1Byb2R1Y3Rvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/CategoriasProductos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1Byb2R1Y3Rvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/CategoriasProductos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1Byb2R1Y3Rvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Comisiones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29taXNpb25lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Comisiones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29taXNpb25lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Comisiones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29taXNpb25lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Facturas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Facturas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Facturas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/GastosOperativos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FzdG9zT3BlcmF0aXZvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/GastosOperativos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FzdG9zT3BlcmF0aXZvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/GastosOperativos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FzdG9zT3BlcmF0aXZvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Historicos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yaWNvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/HorariosLaborales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb3NMYWJvcmFsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/HorariosLaborales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb3NMYWJvcmFsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/HorariosLaborales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9yYXJpb3NMYWJvcmFsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Inventarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Inventarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Inventarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Membresias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYnJlc2lhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Membresias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYnJlc2lhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Membresias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYnJlc2lhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/MetodosPago/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWV0b2Rvc1BhZ29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/MetodosPago/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWV0b2Rvc1BhZ29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/MetodosPago/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWV0b2Rvc1BhZ29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PerfilUsuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyZmlsVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PerfilUsuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyZmlsVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PerfilUsuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyZmlsVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Portafolios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGFmb2xpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Portafolios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGFmb2xpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Portafolios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGFmb2xpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Productos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Productos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Productos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PromocionesEspeciales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvbW9jaW9uZXNFc3BlY2lhbGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PromocionesEspeciales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvbW9jaW9uZXNFc3BlY2lhbGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PromocionesEspeciales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvbW9jaW9uZXNFc3BlY2lhbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PromocionesServicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvbW9jaW9uZXNTZXJ2aWNpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PromocionesServicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvbW9jaW9uZXNTZXJ2aWNpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/PromocionesServicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvbW9jaW9uZXNTZXJ2aWNpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Proveedores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Proveedores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Proveedores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Recepcionistas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXBjaW9uaXN0YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Recepcionistas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXBjaW9uaXN0YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Recepcionistas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZXBjaW9uaXN0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/ReservasServicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNTZXJ2aWNpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/ReservasServicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNTZXJ2aWNpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/ReservasServicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNTZXJ2aWNpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Reservas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Reservas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Reservas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZXJ2YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/ReseñasClientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZcOxYXNDbGllbnRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/ReseñasClientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZcOxYXNDbGllbnRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/ReseñasClientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzZcOxYXNDbGllbnRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Sedes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VkZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Sedes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VkZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Sedes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VkZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Servicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Servicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Servicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qhfufchs2s

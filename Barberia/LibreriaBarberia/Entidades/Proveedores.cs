@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace LibreriaBarberia.Entidades
 {
@@ -10,6 +11,7 @@ namespace LibreriaBarberia.Entidades
         public string? NombreEmpresa { get; set; }
         public string? Correo { get; set; }
         public string? Telefono { get; set; }
+        [JsonIgnore]
         [NotMapped] public List<Productos>? Productos { get; set; }
     }
 }

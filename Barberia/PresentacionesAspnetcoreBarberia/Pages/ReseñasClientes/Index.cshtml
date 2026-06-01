@@ -1,0 +1,69 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.ReseñasClientes.IndexModel
+@{
+    ViewData["Title"] = "Lista de ReseñasClientes";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de ReseñasClientes</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar ReseñaCliente
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Puntuacion</th>
+                        <th style="color: #D4AF37;">Comentario de la Reseña</th>
+                        <th style="color: #D4AF37;">Fecha Publicacion</th>
+                        <th style="color: #D4AF37;">Etiquetas</th>
+                        <th style="color: #D4AF37;">Id Reserva</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaReseñasClientes.Any())
+                    {
+                        foreach (var ReseñaCliente in Model.ListaReseñasClientes)
+                        {
+                            <tr>
+                                <td>@ReseñaCliente.Id</td>
+                                <td>@ReseñaCliente.Puntuacion</td>
+                                <td>@ReseñaCliente.Comentario</td>
+                                <td>@ReseñaCliente.FechaPublicacion</td>
+                                <td>@ReseñaCliente.Etiquetas</td>
+                                <td>@ReseñaCliente.IdReserva</td>
+                              
+                                <td class="text-center">
+                                    <a href="/ReseñasClientes/Edit/@ReseñaCliente.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@ReseñaCliente.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la ReseñaCliente del @ReseñaCliente.FechaPublicacion? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron ReseñasClientes registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

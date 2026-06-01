@@ -1,0 +1,70 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Facturas.CreateModel
+@{
+    ViewData["Title"] = "Nueva Factura";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold">📅 Registrar Nueva Factura</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="Factura.NumeroFactura" class="form-label" style="color: #D4AF37; font-weight: bold;">NumeroFactura</label>
+                            <input asp-for="Factura.NumeroFactura" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Factura.NumeroFactura" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Factura.MontoSubTotal" class="form-label" style="color: #D4AF37; font-weight: bold;">MontoSubTotal de la factura</label>
+                            <input asp-for="Factura.MontoSubTotal" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Factura.MontoSubTotal" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Factura.IVA" class="form-label" style="color: #D4AF37; font-weight: bold;">IVA</label>
+                            <input asp-for="Factura.IVA" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Factura.IVA" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Factura.IVA" class="form-label" style="color: #D4AF37; font-weight: bold;">IVA de la Factura</label>
+                            <input asp-for="Factura.IVA" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Factura.IVA" class="text-danger"></span>
+                        </div>
+
+                     
+
+                        <div class="mb-3">
+                            <label asp-for="Factura.IdReserva" class="form-label" style="color: #D4AF37; font-weight: bold;">ID reserva del Barbero</label>
+                            <input asp-for="Factura.IdReserva" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Factura.IdReserva" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Factura.IdMetodo" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Metodo Pago</label>
+                            <input asp-for="Factura.IdMetodo" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Factura.IdMetodo" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                💾 Guardar Factura
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

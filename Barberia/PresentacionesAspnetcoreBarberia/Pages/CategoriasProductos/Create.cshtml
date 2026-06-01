@@ -1,0 +1,57 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.CategoriasProductos.CreateModel
+@{
+    ViewData["Title"] = "Nueva CategoriaProducto";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold">📅 Registrar Nueva CategoriaProducto</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="CategoriaProducto.Nombre" class="form-label" style="color: #D4AF37; font-weight: bold;">Nombre de la CategoriaProducto</label>
+                            <input asp-for="CategoriaProducto.Nombre" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="CategoriaProducto.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CategoriaProducto.Descripcion" class="form-label" style="color: #D4AF37; font-weight: bold;">Descripcion de la CategoriaProducto</label>
+                            <input asp-for="CategoriaProducto.Descripcion" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="CategoriaProducto.Descripcion" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CategoriaProducto.AplicaImpuesto" class="form-label" style="color: #D4AF37; font-weight: bold;">¿Aplica Impuesto?</label>
+                            <input asp-for="CategoriaProducto.AplicaImpuesto" type="checkbox" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="CategoriaProducto.AplicaImpuesto" class="text-danger"></span>
+                        </div>
+                        
+
+                        <div class="mb-3">
+                            <label asp-for="CategoriaProducto.Estado" class="form-label" style="color: #D4AF37; font-weight: bold;">Estado del Barbero</label>
+                            <input asp-for="CategoriaProducto.Estado" type="checkbox" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="CategoriaProducto.Estado" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                💾 Guardar CategoriaProducto
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

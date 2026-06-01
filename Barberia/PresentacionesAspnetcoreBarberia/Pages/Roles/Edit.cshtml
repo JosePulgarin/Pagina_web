@@ -1,0 +1,59 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.Roles.EditModel
+@{
+    ViewData["Title"] = "Editar Rol";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar Rol</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Rol.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Rol.Nombre" class="form-label" style="color: #D4AF37; font-weight: bold;">Nombre de la Rol</label>
+                            <input asp-for="Rol.Nombre" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Rol.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Rol.Descripcion" class="form-label" style="color: #D4AF37; font-weight: bold;">Descripcion de la Rol</label>
+                            <input asp-for="Rol.Descripcion" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Rol.Descripcion" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Rol.Estado" class="form-label" style="color: #D4AF37; font-weight: bold;">Estado de la Rol</label>
+                            <input asp-for="Rol.Estado" type="checkbox" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Rol.Estado" class="text-danger"></span>
+                        </div>
+
+                       
+
+                        <div class="mb-3">
+                            <label asp-for="Rol.FechaCreacion" class="form-label" style="color: #D4AF37; font-weight: bold;">Fecha Creacion</label>
+                            <input asp-for="Rol.FechaCreacion" type="datetime" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Rol.FechaCreacion" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar Rol
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

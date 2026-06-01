@@ -1,0 +1,68 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.CategoriasProductos.IndexModel
+@{
+    ViewData["Title"] = "Lista de CategoriasProductos";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de CategoriasProductos</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar CategoriaProducto
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Nombre de la Categoria</th>
+                        <th style="color: #D4AF37;">Descripción de la Categoria</th>
+                        <th style="color: #D4AF37;">¿Aplica impuesto?</th>
+                        <th style="color: #D4AF37;">Estado</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaCategoriasProductos.Any())
+                    {
+                        foreach (var CategoriaProducto in Model.ListaCategoriasProductos)
+                        {
+                            <tr>
+                                <td>@CategoriaProducto.Id</td>
+                                <td>@CategoriaProducto.Nombre</td>
+                                <td>@CategoriaProducto.Descripcion</td>
+                                <td>@CategoriaProducto.AplicaImpuesto</td>
+                                <td>@CategoriaProducto.Estado</td>
+                             
+                              
+                                <td class="text-center">
+                                    <a href="/CategoriasProductos/Edit/@CategoriaProducto.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@CategoriaProducto.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la CategoriaProducto del @CategoriaProducto.Nombre? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron CategoriasProductos registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

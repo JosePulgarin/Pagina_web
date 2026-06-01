@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|d:\\itm\\2026-1\\desarrollo de software\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|d:\\itm\\2026-1\\desarrollo de software\\pagina_web_final\\pagina_web\\barberia\\libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{33ADEB2F-A164-7B3F-A83E-BB12D0FAF03F}|LibreriaBarberia\\LibreriaBarberia.csproj|solutionrelative:libreriabarberia\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Script.sql ",
+              "DocumentMoniker": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Script.sql",
+              "RelativeDocumentMoniker": "LibreriaBarberia\\Script.sql",
+              "ToolTip": "D:\\ITM\\2026-1\\Desarrollo de Software\\PAGINA_WEB_FINAL\\Pagina_web\\Barberia\\LibreriaBarberia\\Script.sql",
+              "RelativeToolTip": "LibreriaBarberia\\Script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-30T00:53:09.634Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

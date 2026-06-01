@@ -1,0 +1,70 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.Facturas.IndexModel
+@{
+    ViewData["Title"] = "Lista de Facturas";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="display-6" style="color: #D4AF37; font-weight: bold;">📅 Gestión de Facturas</h1>
+
+        <a asp-page="Create" class="btn" style="background-color: #D4AF37; color: #121212; font-weight: bold;">
+            ➕ Agregar Factura
+        </a>
+    </div>
+
+    <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+        <div class="card-body">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr style="border-bottom: 2px solid #D4AF37;">
+                        <th style="width: 10%; color: #D4AF37;">ID</th>
+                        <th style="color: #D4AF37;">Numero Factura</th>
+                        <th style="color: #D4AF37;">Monto SubTotal de la Factura</th>
+                        <th style="color: #D4AF37;">IVA</th>
+                        <th style="color: #D4AF37;">Total</th>
+                        <th style="color: #D4AF37;">Id reserva</th>
+                        <th style="color: #D4AF37;">ID Metodo</th>
+                        <th class="text-center" style="width: 20%; color: #D4AF37;">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListaFacturas.Any())
+                    {
+                        foreach (var Factura in Model.ListaFacturas)
+                        {
+                            <tr>
+                                <td>@Factura.Id</td>
+                                <td>@Factura.NumeroFactura</td>
+                                <td>@Factura.MontoSubTotal</td>
+                                <td>@Factura.IVA</td>
+                                <td>@Factura.Total</td>
+                                <td>@Factura.IdReserva</td>
+                                <td>@Factura.IdMetodo</td>
+                                <td class="text-center">
+                                    <a href="/Facturas/Edit/@Factura.Id" class="btn btn-outline-warning btn-sm">
+                                        Editar
+                                    </a>
+
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@Factura.Id" class="d-inline">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar la Factura del @Factura.NumeroFactura? Esta acción no se puede deshacer.');">
+                                            Borrar
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center py-4" style="color: #FFFFFF;">
+                                No se encontraron Facturas registradas.
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

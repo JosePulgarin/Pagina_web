@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "AppiBarberia\\AppiBarberia.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PresentacionesAspnetcoreBarberia\\PresentacionesAspnetcoreBarberia.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
