@@ -1,0 +1,57 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.Portafolios.EditModel
+@{
+    ViewData["Title"] = "Editar Portafolio";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar Portafolio</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Portafolio.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Portafolio.Ruta" class="form-label" style="color: #D4AF37; font-weight: bold;">Ruta de la Portafolio</label>
+                            <input asp-for="Portafolio.Ruta" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Portafolio.Ruta" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Portafolio.TituloCorte" class="form-label" style="color: #D4AF37; font-weight: bold;">TituloCorte de la Portafolio</label>
+                            <input asp-for="Portafolio.TituloCorte" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Portafolio.TituloCorte" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Portafolio.Descripcion" class="form-label" style="color: #D4AF37; font-weight: bold;">Descripcion del Portafolio</label>
+                            <input asp-for="Portafolio.Descripcion" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Portafolio.Descripcion" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Portafolio.IdBarbero" class="form-label" style="color: #D4AF37; font-weight: bold;">ID del Barbero</label>
+                            <input asp-for="Portafolio.IdBarbero" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Portafolio.IdBarbero" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar Portafolio
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

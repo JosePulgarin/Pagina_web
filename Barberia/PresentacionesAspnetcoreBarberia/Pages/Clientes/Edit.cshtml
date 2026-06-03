@@ -1,0 +1,71 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.Clientes.EditModel
+@{
+    ViewData["Title"] = "Editar Cliente";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar Cliente</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Cliente.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Cliente.Nombre" class="form-label" style="color: #D4AF37; font-weight: bold;">Nombre de la Cliente</label>
+                            <input asp-for="Cliente.Nombre" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Cliente.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Cliente.Telefono" class="form-label" style="color: #D4AF37; font-weight: bold;">Telefono de la Cliente</label>
+                            <input asp-for="Cliente.Telefono" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Cliente.Telefono" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Cliente.Correo" class="form-label" style="color: #D4AF37; font-weight: bold;">Correo de la Cliente</label>
+                            <input asp-for="Cliente.Correo" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Cliente.Correo" class="text-danger"></span>
+                        </div>
+
+                        
+
+                        <div class="mb-3">
+                            <label asp-for="Cliente.IdUsuario" class="form-label" style="color: #D4AF37; font-weight: bold;">ID de usuario del Barbero</label>
+                            <input asp-for="Cliente.IdUsuario" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Cliente.IdUsuario" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Cliente.IdSede" class="form-label" style="color: #D4AF37; font-weight: bold;">ID de sede del Barbero</label>
+                            <input asp-for="Cliente.IdSede" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Cliente.IdSede" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Cliente.IdMembresia" class="form-label" style="color: #D4AF37; font-weight: bold;">ID de membresia del Barbero</label>
+                            <input asp-for="Cliente.IdMembresia" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Cliente.IdMembresia" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar Cliente
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

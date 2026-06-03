@@ -1,0 +1,65 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.ReseñasClientes.EditModel
+@{
+    ViewData["Title"] = "Editar ReseñaCliente";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar ReseñaCliente</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="ReseñaCliente.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="ReseñaCliente.Puntuacion" class="form-label" style="color: #D4AF37; font-weight: bold;">Puntuacion de la ReseñaCliente</label>
+                            <input asp-for="ReseñaCliente.Puntuacion" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReseñaCliente.Puntuacion" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ReseñaCliente.Comentario" class="form-label" style="color: #D4AF37; font-weight: bold;">Comentario de la ReseñaCliente</label>
+                            <input asp-for="ReseñaCliente.Comentario" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReseñaCliente.Comentario" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ReseñaCliente.FechaPublicacion" class="form-label" style="color: #D4AF37; font-weight: bold;">FechaPublicacion de la ReseñaCliente</label>
+                            <input asp-for="ReseñaCliente.FechaPublicacion" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReseñaCliente.FechaPublicacion" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ReseñaCliente.Etiquetas" class="form-label" style="color: #D4AF37; font-weight: bold;">Etiquetas de la ReseñaCliente</label>
+                            <input asp-for="ReseñaCliente.Etiquetas" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReseñaCliente.Etiquetas" class="text-danger"></span>
+                        </div>
+
+                       
+
+                        <div class="mb-3">
+                            <label asp-for="ReseñaCliente.IdReserva" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Reserva</label>
+                            <input asp-for="ReseñaCliente.IdReserva" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="ReseñaCliente.IdReserva" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar ReseñaCliente
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

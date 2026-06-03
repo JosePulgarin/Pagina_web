@@ -1,8 +1,10 @@
 <Solution>
   <Folder Name="/1. presentaciones/">
-    <Project Path="ConsolaBarberia/ConsolaBarberia.csproj" />
+    <Project Path="PresentacionesAspnetcoreBarberia/PresentacionesAspnetcoreBarberia.csproj" Id="90fc077c-cecf-4759-828a-fbe257125a19" />
+    <Project Path="PresentacionesLibreriaBarberia/PresentacionesLibreriaBarberia.csproj" Id="b0ec15db-e72d-4d34-bb8a-78fd01538832" />
   </Folder>
   <Folder Name="/2. servicios/">
+    <Project Path="AppiBarberia/AppiBarberia.csproj" Id="9b5dfea5-1acd-49f6-921b-3e9653a87a6a" />
     <Project Path="LibreriaBarberia/LibreriaBarberia.csproj" />
   </Folder>
   <Folder Name="/3. pruebas unitarias/">

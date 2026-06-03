@@ -1,0 +1,16 @@
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\bin\Release\net8.0\Script.sql
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\bin\Release\net8.0\LibreriaBarberia.deps.json
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\bin\Release\net8.0\LibreriaBarberia.runtimeconfig.json
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\bin\Release\net8.0\LibreriaBarberia.dll
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\bin\Release\net8.0\LibreriaBarberia.pdb
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.csproj.AssemblyReference.cache
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.AssemblyInfoInputs.cache
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.AssemblyInfo.cs
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.csproj.CoreCompileInputs.cache
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.sourcelink.json
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.dll
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\refint\LibreriaBarberia.dll
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.pdb
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\LibreriaBarberia.genruntimeconfig.cache
+D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\LibreriaBarberia\obj\Release\net8.0\ref\LibreriaBarberia.dll

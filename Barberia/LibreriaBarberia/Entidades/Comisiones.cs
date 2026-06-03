@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
+
 
 namespace LibreriaBarberia.Entidades
 {
@@ -12,7 +14,9 @@ namespace LibreriaBarberia.Entidades
         public string? EstadoLiquidacion { get; set; } // Pendiente, Liquidada, Anulada (OJO, preguntar al profe)
         public int IdFactura { get; set; }
         public int IdBarbero { get; set; }
+        [JsonIgnore]
         [ForeignKey("IdFactura")] public Facturas? Facturas { get; set; }
+        [JsonIgnore]
         [ForeignKey("IdBarbero")] public Barberos? Barberos { get; set; }
     }
 }

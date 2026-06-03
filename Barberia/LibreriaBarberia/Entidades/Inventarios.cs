@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
+
 
 namespace LibreriaBarberia.Entidades
 {
@@ -11,7 +13,9 @@ namespace LibreriaBarberia.Entidades
         public int CantidadActual { get; set; }
         public DateOnly FechaAbastecimiento { get; set; }
         public int IdSede { get; set; }
+        [JsonIgnore]
         [ForeignKey("IdSede")] public Sedes? Sedes { get; set; }
+        [JsonIgnore]
         [NotMapped] public List<Productos>? Productos { get; set; }
     }
 }

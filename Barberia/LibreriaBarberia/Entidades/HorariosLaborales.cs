@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
+
 
 namespace LibreriaBarberia.Entidades
 {
@@ -11,6 +13,7 @@ namespace LibreriaBarberia.Entidades
         public TimeOnly HoraCierre { get; set; }
         public bool DiaFestivo { get; set; }
         public int IdSede { get; set; }
+        [JsonIgnore]
         [ForeignKey("IdSede")] public Sedes? Sedes { get; set; }
     }
 }

@@ -1,0 +1,77 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.Reservas.EditModel
+@{
+    ViewData["Title"] = "Editar Reserva";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar Reserva</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Reserva.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Reserva.Recordatorio" class="form-label" style="color: #D4AF37; font-weight: bold;">Recordatorio de la Reserva</label>
+                            <input asp-for="Reserva.Recordatorio" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Reserva.Recordatorio" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Reserva.Fecha" class="form-label" style="color: #D4AF37; font-weight: bold;">Fecha de la Reserva</label>
+                            <input asp-for="Reserva.Fecha" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Reserva.Fecha" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Reserva.Estado" class="form-label" style="color: #D4AF37; font-weight: bold;">Estado</label>
+                            <select asp-for="Reserva.Estado" class="form-select text-white" style="background-color: #121212; border: 1px solid #6c757d;" required>
+                                <option value="">Seleccione un estado...</option>
+                                <option value="Pendiente">Pendiente</option>
+                                <option value="Confirmada">Confirmada</option>
+                                <option value="Completada">Completada</option>
+                                <option value="Cancelada">Cancelada</option>
+                            </select>
+                            <span asp-validation-for="Reserva.Estado" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Reserva.Notas" class="form-label" style="color: #D4AF37; font-weight: bold;">Notas de la Reserva</label>
+                            <input asp-for="Reserva.Notas" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Reserva.Notas" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Reserva.IdAgenda" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Agenda</label>
+                            <input asp-for="Reserva.IdAgenda" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Reserva.IdAgenda" class="text-danger"></span>
+                        </div>
+
+                        
+
+                        <div class="mb-3">
+                            <label asp-for="Reserva.IdCliente" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Cliente</label>
+                            <input asp-for="Reserva.IdCliente" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Reserva.IdCliente" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar Reserva
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

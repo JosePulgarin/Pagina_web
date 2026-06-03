@@ -1,0 +1,62 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.PerfilUsuarios.CreateModel
+@{
+    ViewData["Title"] = "Nueva PerfilUsuario";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold">📅 Registrar Nueva PerfilUsuario</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="PerfilUsuario.Correo" class="form-label" style="color: #D4AF37; font-weight: bold;">Correo de la PerfilUsuario</label>
+                            <input asp-for="PerfilUsuario.Correo" type="email" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PerfilUsuario.Correo" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PerfilUsuario.Contraseña" class="form-label" style="color: #D4AF37; font-weight: bold;">Contraseña de la PerfilUsuario</label>
+                            <input asp-for="PerfilUsuario.Contraseña" type="password" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PerfilUsuario.Contraseña" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PerfilUsuario.Estado" class="form-label" style="color: #D4AF37; font-weight: bold;">Estado</label>
+                            <select asp-for="PerfilUsuario.Estado" class="form-select text-white" style="background-color: #121212; border: 1px solid #6c757d;" required>
+                                <option value="">Seleccione un estado...</option>
+                                <option value="Pendiente">Activo</option>
+                                <option value="Confirmada">Inactivo</option>
+                                <option value="Completada">Desconectado</option>
+                           
+                            </select>
+                            <span asp-validation-for="PerfilUsuario.Estado" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PerfilUsuario.IdRol" class="form-label" style="color: #D4AF37; font-weight: bold;">ID rol</label>
+                            <input asp-for="PerfilUsuario.IdRol" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PerfilUsuario.IdRol" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                💾 Guardar PerfilUsuario
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

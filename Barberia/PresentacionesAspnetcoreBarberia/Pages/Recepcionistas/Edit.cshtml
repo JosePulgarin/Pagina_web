@@ -1,0 +1,69 @@
+﻿@page "{id:int}"
+@model PresentacionesAspnetcoreBarberia.Pages.Recepcionistas.EditModel
+@{
+    ViewData["Title"] = "Editar Recepcionista";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold"><i class="fa-solid fa-pen-to-square"></i> Modificar Recepcionista</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="Recepcionista.Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Recepcionista.Nombre" class="form-label" style="color: #D4AF37; font-weight: bold;">Nombre de la Recepcionista</label>
+                            <input asp-for="Recepcionista.Nombre" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Recepcionista.Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Recepcionista.FechaNacimiento" class="form-label" style="color: #D4AF37; font-weight: bold;">FechaNacimiento de la Recepcionista</label>
+                            <input asp-for="Recepcionista.FechaNacimiento" type="date" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Recepcionista.FechaNacimiento" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Recepcionista.Turno" class="form-label" style="color: #D4AF37; font-weight: bold;">Turno de la Recepcionista</label>
+                            <input asp-for="Recepcionista.Turno" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Recepcionista.Turno" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Recepcionista.Telefono" class="form-label" style="color: #D4AF37; font-weight: bold;">Telefono de la Recepcionista</label>
+                            <input asp-for="Recepcionista.Telefono" type="text" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Recepcionista.Telefono" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Recepcionista.IdUsuario" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Usuario</label>
+                            <input asp-for="Recepcionista.IdUsuario" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Recepcionista.IdUsuario" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Recepcionista.IdSede" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Sede</label>
+                            <input asp-for="Recepcionista.IdSede" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="Recepcionista.IdSede" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                <i class="fa-solid fa-arrows-rotate"></i> Actualizar Recepcionista
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

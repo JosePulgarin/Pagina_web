@@ -1,0 +1,56 @@
+﻿@page
+@model PresentacionesAspnetcoreBarberia.Pages.PromocionesServicios.CreateModel
+@{
+    ViewData["Title"] = "Nueva PromocionServicio";
+}
+
+<div class="container mt-4 pb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm" style="background-color: #1E1E1E; border: 1px solid #D4AF37;">
+                <div class="card-header" style="background-color: #D4AF37; color: #121212;">
+                    <h3 class="mb-0 fw-bold">📅 Registrar Nueva PromocionServicio</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="PromocionServicio.MontoDescuento" class="form-label" style="color: #D4AF37; font-weight: bold;">MontoDescuento de la PromocionServicio</label>
+                            <input asp-for="PromocionServicio.MontoDescuento" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PromocionServicio.MontoDescuento" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PromocionServicio.DescuentoFinde" class="form-label" style="color: #D4AF37; font-weight: bold;">DescuentoFinde de la PromocionServicio</label>
+                            <input asp-for="PromocionServicio.DescuentoFinde" type="number" class="form-control text-white" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PromocionServicio.DescuentoFinde" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PromocionServicio.IdServicio" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Servicio</label>
+                            <input asp-for="PromocionServicio.IdServicio" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PromocionServicio.IdServicio" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PromocionServicio.IdPromocionEspecial" class="form-label" style="color: #D4AF37; font-weight: bold;">Id Promocion Especial</label>
+                            <input asp-for="PromocionServicio.IdPromocionEspecial" type="number" class="form-control text-white" placeholder="Ej: 1" style="background-color: #121212; border: 1px solid #6c757d;" required />
+                            <span asp-validation-for="PromocionServicio.IdPromocionEspecial" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn fw-bold" style="background-color: #D4AF37; color: #121212;">
+                                💾 Guardar PromocionServicio
+                            </button>
+                            <a asp-page="Index" class="btn btn-outline-light">⬅️ Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
