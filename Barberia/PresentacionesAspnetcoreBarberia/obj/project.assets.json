@@ -47,6 +47,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "ClosedXML/0.105.0": {
         "type": "package",
         "dependencies": {
@@ -125,6 +126,8 @@
           }
         }
       },
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -656,6 +659,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -682,6 +686,8 @@
           }
         }
       },
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -804,6 +810,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "System.IO.Packaging/8.0.1": {
         "type": "package",
         "compile": {
@@ -820,6 +827,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
       "System.IO.Pipelines/9.0.3": {
         "type": "package",
         "compile": {
@@ -1212,6 +1221,7 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+<<<<<<< HEAD
     "ClosedXML/0.105.0": {
       "sha512": "U0hAdnYyPvF7TqHMFloxrS7pmozab79tFFF4c/bgPtqeelUs7ILpUd3r3c7C0a/DXsUZb3k1n4Pf7Q2LMyMQOg==",
       "type": "package",
@@ -1312,6 +1322,8 @@
         "lib/netstandard2.0/ExcelNumberFormat.xml"
       ]
     },
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -2157,6 +2169,7 @@
         "packageIcon.png"
       ]
     },
+<<<<<<< HEAD
     "RBush.Signed/4.0.0": {
       "sha512": "aP5KQxL5RnFNGW1f0euYVBfCatkLw5iEzMRJcXKq8LWWP4Cp3+qoSq1tDDL2vvJ2rM0ychmVMa2VaEKLS6uX4w==",
       "type": "package",
@@ -2193,6 +2206,8 @@
         "sixlabors.fonts.nuspec"
       ]
     },
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -2358,6 +2373,7 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
+<<<<<<< HEAD
     "System.IO.Packaging/8.0.1": {
       "sha512": "KYkIOAvPexQOLDxPO2g0BVoWInnQhPpkFzRqvNrNrMhVT6kqhVr0zEb6KCHlptLFukxnZrjuMVAnxK7pOGUYrw==",
       "type": "package",
@@ -2387,6 +2403,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
     "System.IO.Pipelines/9.0.3": {
       "sha512": "aP1Qh9llcEmo0qN+VKvVDHFMe5Cqpfb1VjhBO7rjmxCXtLs3IfVSOiNqqLBZ/4Qbcr4J0SDdJq9S7EKAGpnwEA==",
       "type": "package",
@@ -3169,7 +3187,10 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "ClosedXML >= 0.105.0",
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
       "Newtonsoft.Json >= 13.0.4",
       "PresentacionesLibreriaBarberia >= 1.0.0"
     ]
@@ -3229,10 +3250,13 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+<<<<<<< HEAD
           "ClosedXML": {
             "target": "Package",
             "version": "[0.105.0, )"
           },
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.4, )"

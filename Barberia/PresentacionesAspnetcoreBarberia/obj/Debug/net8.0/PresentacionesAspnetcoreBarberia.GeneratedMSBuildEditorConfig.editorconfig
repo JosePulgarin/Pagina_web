@@ -140,10 +140,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 [D:/ITM/2026-1/Desarrollo de Software/PAGINA_WEB_FINAL/Pagina_web/Barberia/PresentacionesAspnetcoreBarberia/Pages/Membresias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYnJlc2lhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

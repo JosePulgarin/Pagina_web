@@ -73,9 +73,18 @@ namespace LibreriaBarberia.Implementaciones
             if (entidad.Id == 0)
                 throw new Exception("Error: Para modificar un ReservaServicio, debes enviar su número de Id.");
 
+<<<<<<< HEAD
             if (entidad.Precio <= 0 || string.IsNullOrWhiteSpace(entidad.Observacion))
                 throw new Exception("Ingrese un precio mayor a 0 y una observación");
 
+=======
+<<<<<<< HEAD
+            if (entidad.Precio <= 0 || string.IsNullOrWhiteSpace(entidad.Observacion))
+                throw new Exception("Ingrese un precio mayor a 0 y una observación");
+
+=======
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
             this.iConexion = new Conexion();
             this.iConexion.string_conexion = Configuraciones.obtener("string_conexion");
             // ¡Aquí brilla el EntityEntry! Le avisa a la base de datos que este ReservaServicio fue editado

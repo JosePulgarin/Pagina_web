@@ -139,10 +139,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+<<<<<<< HEAD
             "ClosedXML": {
               "target": "Package",
               "version": "[0.105.0, )"
             },
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"

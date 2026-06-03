@@ -1,5 +1,13 @@
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 using System.IO; // Para leer el archivo Script.sql
+=======
+<<<<<<< HEAD
+using System.IO; // Para leer el archivo Script.sql
+=======
+
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +25,15 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // ========================================================================
+<<<<<<< HEAD
 // EL ESCUDO ANTI-BORRADOS + AUTO RELLENADO DE DATOS
+=======
+<<<<<<< HEAD
+// EL ESCUDO ANTI-BORRADOS + AUTO RELLENADO DE DATOS
+=======
+// EL ESCUDO ANTI-BORRADOS
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 // ========================================================================
 using (var scope = app.Services.CreateScope())
 {
@@ -26,6 +42,10 @@ using (var scope = app.Services.CreateScope())
         contexto.string_conexion = LibreriaBarberia.Nucleo.Configuraciones.obtener("string_conexion");
 
         // EnsureCreated devuelve 'true' SI LA BD SE ACABA DE CREAR NUEVA
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
         bool bdRecienCreada = contexto.Database.EnsureCreated();
 
         // Si la BD es nuevecita, le disparamos el script de una
@@ -54,6 +74,14 @@ using (var scope = app.Services.CreateScope())
         }
 
 
+<<<<<<< HEAD
+=======
+=======
+        contexto.Database.EnsureCreated();
+
+   
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
     }
 }
 

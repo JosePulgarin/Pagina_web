@@ -54,7 +54,15 @@ namespace PruebasUnitarias.Comunicaciones
             {
                 Id = 0, // Id 0 porque es nueva
                 Recordatorio = "WhatsApp",
+<<<<<<< HEAD
                 Fecha = new DateOnly(2026, 07, 10),
+=======
+<<<<<<< HEAD
+                Fecha = new DateOnly(2026, 07, 10),
+=======
+                Fecha = new DateOnly(2026, 04, 10),
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Estado = "Confirmada",
                 Notas = "Cliente puntual",
                 IdAgenda = 1,
@@ -84,7 +92,15 @@ namespace PruebasUnitarias.Comunicaciones
             {
                 Id = 0, // Id 0 porque es nueva
                 Recordatorio = "WhatsApp",
+<<<<<<< HEAD
                 Fecha = new DateOnly(2026, 07, 10),
+=======
+<<<<<<< HEAD
+                Fecha = new DateOnly(2026, 07, 10),
+=======
+                Fecha = new DateOnly(2026, 04, 10),
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Estado = "Confirmada",
                 Notas = "Cliente puntual",
                 IdAgenda = 1,
@@ -114,7 +130,15 @@ namespace PruebasUnitarias.Comunicaciones
             {
                 Id = 0,
                 Recordatorio = "WhatsApp",
+<<<<<<< HEAD
                 Fecha = new DateOnly(2026, 07, 10),
+=======
+<<<<<<< HEAD
+                Fecha = new DateOnly(2026, 07, 10),
+=======
+                Fecha = new DateOnly(2026, 04, 10),
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Estado = "Confirmada",
                 Notas = "Cliente puntual",
                 IdAgenda = 1,

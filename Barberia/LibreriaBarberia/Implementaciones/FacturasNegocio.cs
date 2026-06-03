@@ -20,7 +20,15 @@ namespace LibreriaBarberia.Implementaciones
                 throw new Exception("Para guardar un Factura nuevo, el Id debe ser 0. Si envías un Id, significa que ya existe.");
 
             if (string.IsNullOrWhiteSpace(entidad.NumeroFactura))
+<<<<<<< HEAD
                 throw new Exception("El Numero de Factura es absolutamente obligatorio.");
+=======
+<<<<<<< HEAD
+                throw new Exception("El Numero de Factura es absolutamente obligatorio.");
+=======
+                throw new Exception("El Numero de Factura son absolutamente obligatorios.");
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 
             if (entidad.IdMetodo<=0)
                 throw new Exception("Ingresa un método de pago.");

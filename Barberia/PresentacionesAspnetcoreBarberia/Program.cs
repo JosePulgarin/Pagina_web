@@ -3,7 +3,10 @@ using PresentacionesLibreriaBarberia.Interfaces;
 using PresentacionesLibreriaBarberia.Implementaciones; // importar las carpetas de mi puente
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 var builder = WebApplication.CreateBuilder(args); // Add services to the container.
 
 
@@ -39,6 +42,7 @@ builder.Services.AddScoped<PresentacionesAspnetcoreBarberia.Services.SedesServic
 builder.Services.AddScoped<PresentacionesAspnetcoreBarberia.Services.ServiciosService>();
 
 
+<<<<<<< HEAD
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options => {
     options.IdleTimeout = TimeSpan.FromMinutes(20); // La sesión dura 20 mins
@@ -46,6 +50,8 @@ builder.Services.AddSession(options => {
     options.Cookie.IsEssential = true;
 });
 
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
@@ -57,7 +63,10 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+<<<<<<< HEAD
 app.UseSession();
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 app.UseAuthorization();
 app.MapRazorPages();
 

@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 using ClosedXML.Excel;
 using Microsoft.AspNetCore.Mvc;
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PresentacionesAspnetcoreBarberia.Models;
 using PresentacionesAspnetcoreBarberia.Services;
@@ -17,6 +20,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Historicos
             _historicosService = historicosService;
         }
 
+<<<<<<< HEAD
         public async Task<IActionResult> OnGetAsync()
         {
             // 1. EL CADENERO: Revisamos si el usuario tiene la sesión iniciada
@@ -88,6 +92,12 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Historicos
                     return File(contenido, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Reporte_Historicos.xlsx");
                 }
             }
+=======
+        public async Task OnGetAsync()
+        {
+            // Traemos los registros de la bitácora
+            ListaHistoricos = await _historicosService.ConsultarAsync();
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
         }
     }
 }

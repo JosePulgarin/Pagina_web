@@ -79,7 +79,15 @@ namespace LibreriaBarberia.Implementaciones
                 // Creamos el registro fantasma
                 Historicos registroAutomatico = new Historicos();
                 registroAutomatico.Accion = accionDetectada;
+<<<<<<< HEAD
                 registroAutomatico.Entidad = nombreTabla;
+=======
+<<<<<<< HEAD
+                registroAutomatico.Entidad = nombreTabla;
+=======
+                registroAutomatico.Entidad = "Acción automática en la tabla: " + nombreTabla;
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 registroAutomatico.Usuario = "Admin_Swagger"; // Temporal hasta tener el Login
                 registroAutomatico.Fecha = DateTime.Now;
 

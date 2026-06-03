@@ -94,6 +94,7 @@ D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\Presen
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\bin\Debug\net8.0\LibreriaBarberia.pdb
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\obj\Debug\net8.0\Presenta.830B569D.Up2Date
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\bin\Debug\net8.0\Script.sql
+<<<<<<< HEAD
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\bin\Debug\net8.0\ClosedXML.dll
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\bin\Debug\net8.0\ClosedXML.Parser.dll
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
@@ -102,3 +103,5 @@ D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\Presen
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\bin\Debug\net8.0\RBush.dll
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\bin\Debug\net8.0\SixLabors.Fonts.dll
 D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\PresentacionesAspnetcoreBarberia\bin\Debug\net8.0\System.IO.Packaging.dll
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 using ClosedXML.Excel;
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PresentacionesAspnetcoreBarberia.Models;
@@ -20,6 +23,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.PromocionesServicios
             _historicosService = historicosService; // INYECCIÓN DE HISTORICOS
         }
 
+<<<<<<< HEAD
         public async Task<IActionResult> OnGetAsync()
         {
 
@@ -29,6 +33,10 @@ namespace PresentacionesAspnetcoreBarberia.Pages.PromocionesServicios
                 return RedirectToPage("/Login"); // Si no tiene el sello, pa' fuera
             }
 
+=======
+        public async Task OnGetAsync()
+        {
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
             // Llamada asíncrona limpia a la API
             ListaPromocionesServicios = await _PromocionesServiciosService.ConsultarAsync();
 
@@ -36,13 +44,23 @@ namespace PresentacionesAspnetcoreBarberia.Pages.PromocionesServicios
             var registro = new HistoricosClase
             {
                 Usuario = "Admin", // Aquí podrías poner el usuario real si tienes autenticación
+<<<<<<< HEAD
                 Entidad = "PromocionesServicios",
+=======
+<<<<<<< HEAD
+                Entidad = "PromocionesServicios",
+=======
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Accion = "Consultó la lista de PromocionesServicios",
                 Fecha = DateTime.Now
             };
 
             await _historicosService.GuardarAsync(registro);
+<<<<<<< HEAD
             return Page();
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
         }
 
         // Este método se activa cuando presionan el botón rojo de Borrar
@@ -61,6 +79,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.PromocionesServicios
             // Si falló, también recarga la página (luego podemos ponerle un mensaje de error)
             return RedirectToPage();
         }
+<<<<<<< HEAD
 
         public async Task<IActionResult> OnGetExportarExcelAsync()
         {
@@ -117,5 +136,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.PromocionesServicios
                 }
             }
         }
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
     }
 }

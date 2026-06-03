@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 using ClosedXML.Excel;
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PresentacionesAspnetcoreBarberia.Models;
 using PresentacionesAspnetcoreBarberia.Services;
+<<<<<<< HEAD
 using System.IO;
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 
 namespace PresentacionesAspnetcoreBarberia.Pages.Comisiones
 {
@@ -21,6 +27,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Comisiones
             _historicosService = historicosService; // INYECCIÓN DE HISTORICOS
         }
 
+<<<<<<< HEAD
         public async Task<IActionResult> OnGetAsync()
         {
 
@@ -30,6 +37,10 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Comisiones
                 return RedirectToPage("/Login"); // Si no tiene el sello, pa' fuera
             }
 
+=======
+        public async Task OnGetAsync()
+        {
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
             // Llamada asíncrona limpia a la API
             ListaComisiones = await _ComisionesService.ConsultarAsync();
 
@@ -37,13 +48,23 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Comisiones
             var registro = new HistoricosClase
             {
                 Usuario = "Admin", // Aquí podrías poner el usuario real si tienes autenticación
+<<<<<<< HEAD
                 Entidad = "Comisiones",
+=======
+<<<<<<< HEAD
+                Entidad = "Comisiones",
+=======
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Accion = "Consultó la lista de Comisiones",
                 Fecha = DateTime.Now
             };
 
             await _historicosService.GuardarAsync(registro);
+<<<<<<< HEAD
             return Page();
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
         }
 
         // Este método se activa cuando presionan el botón rojo de Borrar
@@ -62,6 +83,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Comisiones
             // Si falló, también recarga la página (luego podemos ponerle un mensaje de error)
             return RedirectToPage();
         }
+<<<<<<< HEAD
 
         public async Task<IActionResult> OnGetExportarExcelAsync()
         {
@@ -123,5 +145,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Comisiones
                 }
             }
         }
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
     }
 }

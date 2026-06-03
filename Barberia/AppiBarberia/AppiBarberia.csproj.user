@@ -2,7 +2,10 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>http</ActiveDebugProfile>
+<<<<<<< HEAD
     <NameOfLastUsedPublishProfile>D:\ITM\2026-1\Desarrollo de Software\PAGINA_WEB_FINAL\Pagina_web\Barberia\AppiBarberia\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

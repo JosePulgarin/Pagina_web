@@ -7,7 +7,10 @@
   </PropertyGroup>
 
 	<ItemGroup>
+<<<<<<< HEAD
 		<PackageReference Include="ClosedXML" Version="0.105.0" />
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 	</ItemGroup>	
 	
@@ -15,8 +18,11 @@
     <ProjectReference Include="..\PresentacionesLibreriaBarberia\PresentacionesLibreriaBarberia.csproj" />
   </ItemGroup>	
 	
+<<<<<<< HEAD
 	
 	
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
   <ItemGroup>
     <Folder Include="Pages\Barberos\" />
     <Folder Include="Pages\CategoriasProductos\" />

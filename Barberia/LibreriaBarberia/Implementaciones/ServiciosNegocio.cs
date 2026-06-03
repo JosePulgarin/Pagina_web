@@ -71,9 +71,18 @@ namespace LibreriaBarberia.Implementaciones
             if (entidad.Id == 0)
                 throw new Exception("Error: Para modificar un Servicio, debes enviar su número de Id.");
 
+<<<<<<< HEAD
             if (string.IsNullOrWhiteSpace(entidad.Nombre) || entidad.Tiempo <= 0 || entidad.Costo <= 0)
                 throw new Exception("El Nombre del Servicio es absolutamente obligatorio, el costo tiene que ser mayor a 0 e ingrese un tiempo valido.");
 
+=======
+<<<<<<< HEAD
+            if (string.IsNullOrWhiteSpace(entidad.Nombre) || entidad.Tiempo <= 0 || entidad.Costo <= 0)
+                throw new Exception("El Nombre del Servicio es absolutamente obligatorio, el costo tiene que ser mayor a 0 e ingrese un tiempo valido.");
+
+=======
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
             this.iConexion = new Conexion();
             this.iConexion.string_conexion = Configuraciones.obtener("string_conexion");
             // ¡Aquí brilla el EntityEntry! Le avisa a la base de datos que este Servicio fue editado

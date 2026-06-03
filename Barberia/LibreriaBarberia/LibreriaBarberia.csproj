@@ -26,6 +26,18 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Script.sql">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 	</ItemGroup>
 
 </Project>

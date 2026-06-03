@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Mvc; // Necesario para devolver el FileResult en el método de exportación
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PresentacionesAspnetcoreBarberia.Models;
@@ -5,6 +6,12 @@ using PresentacionesAspnetcoreBarberia.Services;
 using ClosedXML.Excel; // Necesario para manejar Excel
 using System.IO; // Necesario para MemoryStream
 
+=======
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using PresentacionesAspnetcoreBarberia.Models;
+using PresentacionesAspnetcoreBarberia.Services;
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 
 namespace PresentacionesAspnetcoreBarberia.Pages.Agendas
 {
@@ -22,6 +29,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Agendas
             _historicosService = historicosService; // INYECCIÓN DE HISTORICOS
         }
 
+<<<<<<< HEAD
         public async Task<IActionResult> OnGetAsync()
         {
 
@@ -31,6 +39,10 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Agendas
                 return RedirectToPage("/Login"); // Si no tiene el sello, pa' fuera
             }
 
+=======
+        public async Task OnGetAsync()
+        {
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
             // Llamada asíncrona limpia a la API
             ListaAgendas = await _AgendasService.ConsultarAsync();
 
@@ -38,13 +50,23 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Agendas
             var registro = new HistoricosClase
             {
                 Usuario = "Admin", // Aquí podrías poner el usuario real si tienes autenticación
+<<<<<<< HEAD
                 Entidad = "Agendas",
+=======
+<<<<<<< HEAD
+                Entidad = "Agendas",
+=======
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Accion = "Consultó la lista de Agendas",
                 Fecha = DateTime.Now
             };
 
             await _historicosService.GuardarAsync(registro);
+<<<<<<< HEAD
             return Page();
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
         }
 
         // Este método se activa cuando presionan el botón rojo de Borrar
@@ -63,6 +85,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Agendas
             // Si falló, también recarga la página (luego podemos ponerle un mensaje de error)
             return RedirectToPage();
         }
+<<<<<<< HEAD
 
         public async Task<IActionResult> OnGetExportarExcelAsync()
         {
@@ -118,5 +141,7 @@ namespace PresentacionesAspnetcoreBarberia.Pages.Agendas
             }
         }
 
+=======
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
     }
 }

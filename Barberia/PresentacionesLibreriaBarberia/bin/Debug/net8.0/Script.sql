@@ -1,6 +1,17 @@
 CREATE DATABASE db_barberia; --Creación de la base de datos
+<<<<<<< HEAD
 USE db_barberia;
 
+=======
+<<<<<<< HEAD
+USE db_barberia;
+
+=======
+GO
+USE db_barberia;
+GO
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
 
 ---------------------- TABLAS ------------------------
 

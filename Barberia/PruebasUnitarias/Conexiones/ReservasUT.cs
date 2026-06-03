@@ -45,7 +45,15 @@ namespace PruebasUnitarias.Conexiones
                 Id = 0,
               
                 Recordatorio = "SMS",
+<<<<<<< HEAD
                 Fecha = new DateOnly(2025, 03, 12), // Esta en el pasado
+=======
+<<<<<<< HEAD
+                Fecha = new DateOnly(2025, 03, 12), // Esta en el pasado
+=======
+                Fecha = new DateOnly(2027, 03, 12), // Esta en el futuro
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Estado = "Confirmada",
                 Notas = "Ninguna",
                 IdAgenda = 6,
@@ -66,7 +74,15 @@ namespace PruebasUnitarias.Conexiones
             {
                 Id = 0,
                 Recordatorio = "SMS",
+<<<<<<< HEAD
                 Fecha = new DateOnly(2026, 07, 12), 
+=======
+<<<<<<< HEAD
+                Fecha = new DateOnly(2026, 07, 12), 
+=======
+                Fecha = new DateOnly(2024, 03, 12), 
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Estado = "Confirmada",
                 Notas = "Ninguna",
                 IdAgenda = 6,
@@ -92,7 +108,15 @@ namespace PruebasUnitarias.Conexiones
             {
                 Id = 0,
                 Recordatorio = "SMS",
+<<<<<<< HEAD
                 Fecha = new DateOnly(2026, 07, 12),
+=======
+<<<<<<< HEAD
+                Fecha = new DateOnly(2026, 07, 12),
+=======
+                Fecha = new DateOnly(2024, 03, 12),
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Estado = "Confirmada",
                 Notas = "Ninguna",
                 IdAgenda = 6,
@@ -121,7 +145,15 @@ namespace PruebasUnitarias.Conexiones
             {
                 Id = 0,
                 Recordatorio = "SMS",
+<<<<<<< HEAD
                 Fecha = new DateOnly(2026, 07, 12),
+=======
+<<<<<<< HEAD
+                Fecha = new DateOnly(2026, 07, 12),
+=======
+                Fecha = new DateOnly(2024, 03, 12),
+>>>>>>> 7a211c30954c5185a1af436a7a13b3f477101c47
+>>>>>>> 112295c9af2e932238842f9f0beda5235c10b042
                 Estado = "Confirmada",
                 Notas = "Ninguna",
                 IdAgenda = 6,
